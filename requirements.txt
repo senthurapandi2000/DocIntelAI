@@ -1,0 +1,26 @@
+requests
+python-dotenv
+pandas
+beautifulsoup4
+lxml
+scikit-learn
+joblib
+pymupdf
+Faker
+Pillow
+pytesseract
+rapidfuzz
+
+# Deep-learning OCR
+torch
+torchvision
+transformers==4.57.6
+accelerate
+safetensors
+sentencepiece
+tiktoken
+fastapi
+uvicorn[standard]
+streamlit
+requests
+python-multipart

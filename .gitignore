@@ -1,0 +1,24 @@
+.env
+# IDE files
+.idea/
+.vscode/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local databases and runtime data
+*.db
+*.sqlite
+*.sqlite3
+data/processed/
+data/uploads/
+
+# Temporary release folders and backups
+docintelai_release_pack/
+docintelai_docker_pack/
+docintelai_final_documentation_pack/
+README_before_final_release.md
+*_before_*.py
+*.backup

@@ -1,0 +1,31 @@
+ticker,sector
+AAPL,Technology
+MSFT,Technology
+NVDA,Technology
+ORCL,Technology
+IBM,Technology
+JPM,Financial Services
+BAC,Financial Services
+GS,Financial Services
+C,Financial Services
+V,Financial Services
+WMT,Retail and Consumer
+COST,Retail and Consumer
+HD,Retail and Consumer
+NKE,Retail and Consumer
+MCD,Retail and Consumer
+JNJ,Healthcare
+PFE,Healthcare
+UNH,Healthcare
+ABT,Healthcare
+MRK,Healthcare
+XOM,Energy
+CVX,Energy
+COP,Energy
+SLB,Energy
+EOG,Energy
+CAT,Industrial
+BA,Industrial
+GE,Industrial
+UPS,Industrial
+T,Telecommunications

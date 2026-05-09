@@ -1,0 +1,89 @@
+ticker,form,filing_date,accession_number,status,metrics_found,completeness_rate,available_metrics,missing_metrics,needs_review
+AAPL,10-Q,2026-05-01,0000320193-26-000013,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+AAPL,8-K,2026-04-30,0000320193-26-000011,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+AAPL,10-K,2025-10-31,0000320193-25-000079,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+MSFT,10-K,2026-07-29,0001193125-26-323660,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+MSFT,8-K,2026-07-29,0001193125-26-323632,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+MSFT,10-Q,2026-04-29,0001193125-26-191507,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+NVDA,8-K,2026-07-02,0001045810-26-000060,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+NVDA,10-Q,2026-05-20,0001045810-26-000052,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+NVDA,10-K,2026-02-25,0001045810-26-000021,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+ORCL,10-K,2026-06-22,0001193125-26-277521,partial,6,0.8571,"revenue, net_income, operating_income, total_assets, stockholders_equity, cash_and_cash_equivalents",total_liabilities,False
+ORCL,8-K,2026-06-10,0001193125-26-265848,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+ORCL,10-Q,2026-03-11,0001193125-26-101045,partial,6,0.8571,"revenue, net_income, operating_income, total_assets, stockholders_equity, cash_and_cash_equivalents",total_liabilities,False
+IBM,10-Q,2026-07-23,0000051143-26-000078,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+IBM,8-K,2026-07-22,0000051143-26-000077,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+IBM,10-K,2026-02-24,0000051143-26-000010,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+JPM,8-K,2026-07-23,0001193125-26-314128,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+JPM,10-Q,2026-05-01,0001628280-26-029344,partial,5,0.7143,"net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents","revenue, operating_income",False
+JPM,10-K,2026-02-13,0001628280-26-008131,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+BAC,8-K,2026-07-24,0000070858-26-000364,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+BAC,10-Q,2026-05-01,0000070858-26-000249,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+BAC,10-K,2026-02-25,0000070858-26-000157,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+GS,8-K,2026-07-27,0001193125-26-318147,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+GS,10-Q,2026-05-01,0000886982-26-000118,partial,5,0.7143,"net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents","revenue, operating_income",False
+GS,10-K,2026-02-25,0000886982-26-000091,partial,5,0.7143,"net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents","revenue, operating_income",False
+C,8-K,2026-07-14,0001104659-26-083383,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+C,10-Q,2026-05-07,0000831001-26-000019,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",True
+C,10-K,2026-02-20,0000831001-26-000011,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+V,10-Q,2026-07-29,0001403161-26-000104,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",True
+V,8-K,2026-07-28,0001403161-26-000103,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+V,10-K,2025-11-06,0001403161-25-000089,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+WMT,8-K,2026-06-05,0000104169-26-000111,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+WMT,10-Q,2026-05-29,0000104169-26-000102,partial,6,0.8571,"revenue, net_income, operating_income, total_assets, stockholders_equity, cash_and_cash_equivalents",total_liabilities,False
+WMT,10-K,2026-03-13,0000104169-26-000055,partial,6,0.8571,"revenue, net_income, operating_income, total_assets, stockholders_equity, cash_and_cash_equivalents",total_liabilities,False
+COST,8-K,2026-07-08,0000909832-26-000060,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+COST,10-Q,2026-06-03,0000909832-26-000051,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+COST,10-K,2025-10-08,0000909832-25-000101,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+HD,10-Q,2026-05-27,0001628280-26-038247,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+HD,8-K,2026-05-26,0000354950-26-000105,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+HD,10-K,2026-03-18,0001628280-26-019436,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+NKE,10-K,2026-07-15,0000320187-26-000088,partial,5,0.7143,"revenue, net_income, total_assets, stockholders_equity, cash_and_cash_equivalents","operating_income, total_liabilities",False
+NKE,8-K,2026-06-30,0000320187-26-000076,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+NKE,10-Q,2026-04-01,0000320187-26-000037,partial,5,0.7143,"revenue, net_income, total_assets, stockholders_equity, cash_and_cash_equivalents","operating_income, total_liabilities",False
+MCD,8-K,2026-05-22,0000063908-26-000055,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+MCD,10-Q,2026-05-07,0000063908-26-000051,partial,6,0.8571,"revenue, net_income, operating_income, total_assets, stockholders_equity, cash_and_cash_equivalents",total_liabilities,False
+MCD,10-K,2026-02-24,0000063908-26-000035,partial,6,0.8571,"revenue, net_income, operating_income, total_assets, stockholders_equity, cash_and_cash_equivalents",total_liabilities,False
+JNJ,8-K,2026-07-29,0000200406-26-000163,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+JNJ,10-Q,2026-07-23,0000200406-26-000153,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+JNJ,10-K,2026-02-11,0000200406-26-000016,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+PFE,8-K,2026-06-18,0000078003-26-000087,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+PFE,10-Q,2026-05-05,0000078003-26-000054,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+PFE,10-K,2026-02-26,0000078003-26-000026,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+UNH,8-K,2026-07-16,0000731766-26-000191,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+UNH,10-Q,2026-05-05,0000731766-26-000127,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+UNH,10-K,2026-03-02,0000731766-26-000062,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+ABT,10-Q,2026-07-28,0001628280-26-050134,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",True
+ABT,8-K,2026-07-16,0001628280-26-048377,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+ABT,10-K,2026-02-20,0001628280-26-010185,partial,6,0.8571,"revenue, net_income, operating_income, total_assets, stockholders_equity, cash_and_cash_equivalents",total_liabilities,False
+MRK,8-K,2026-05-28,0001104659-26-067509,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+MRK,10-Q,2026-05-04,0001628280-26-029802,partial,5,0.7143,"revenue, net_income, total_assets, stockholders_equity, cash_and_cash_equivalents","operating_income, total_liabilities",False
+MRK,10-K,2026-02-24,0000310158-26-000063,partial,5,0.7143,"revenue, net_income, total_assets, stockholders_equity, cash_and_cash_equivalents","operating_income, total_liabilities",False
+XOM,8-K,2026-07-07,0002115436-26-000003,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+CVX,8-K,2026-05-29,0000093410-26-000125,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+CVX,10-Q,2026-05-07,0000093410-26-000113,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+CVX,10-K,2026-02-24,0000093410-26-000078,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+COP,8-K,2026-06-23,0001104659-26-076836,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+COP,10-Q,2026-04-30,0001163165-26-000018,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+COP,10-K,2026-02-17,0001163165-26-000009,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+SLB,10-Q,2026-07-29,0001193125-26-322595,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",True
+SLB,8-K,2026-07-24,0001193125-26-315068,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+SLB,10-K,2026-01-23,0001193125-26-021017,partial,5,0.7143,"revenue, net_income, total_assets, total_liabilities, stockholders_equity","operating_income, cash_and_cash_equivalents",False
+EOG,8-K,2026-07-09,0000821189-26-000140,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+EOG,10-Q,2026-05-05,0000821189-26-000104,partial,6,0.8571,"revenue, net_income, operating_income, total_assets, stockholders_equity, cash_and_cash_equivalents",total_liabilities,False
+EOG,10-K,2026-02-24,0000821189-26-000054,partial,6,0.8571,"revenue, net_income, operating_income, total_assets, stockholders_equity, cash_and_cash_equivalents",total_liabilities,False
+CAT,8-K,2026-06-11,0001104659-26-072929,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+CAT,10-Q,2026-05-06,0000018230-26-000021,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+CAT,10-K,2026-02-13,0000018230-26-000008,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+BA,10-Q,2026-07-28,0001628280-26-050038,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+BA,8-K,2026-07-28,0001628280-26-049929,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+BA,10-K,2026-01-30,0001628280-26-004357,complete,7,1.0,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",,False
+GE,10-Q,2026-07-16,0000040545-26-000049,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+GE,8-K,2026-07-16,0000040545-26-000047,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+GE,10-K,2026-01-29,0000040545-26-000008,partial,6,0.8571,"revenue, net_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",operating_income,False
+UPS,8-K,2026-07-28,0001628280-26-049912,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+UPS,10-Q,2026-05-06,0001628280-26-031154,partial,6,0.8571,"revenue, net_income, operating_income, total_assets, stockholders_equity, cash_and_cash_equivalents",total_liabilities,False
+UPS,10-K,2026-02-17,0001628280-26-008432,partial,6,0.8571,"revenue, net_income, operating_income, total_assets, stockholders_equity, cash_and_cash_equivalents",total_liabilities,False
+T,8-K,2026-07-28,0001193125-26-321053,no_facts,0,0.0,,"revenue, net_income, operating_income, total_assets, total_liabilities, stockholders_equity, cash_and_cash_equivalents",False
+T,10-Q,2026-07-22,0000732717-26-000297,partial,6,0.8571,"revenue, net_income, operating_income, total_assets, stockholders_equity, cash_and_cash_equivalents",total_liabilities,False
+T,10-K,2026-02-09,0000732717-26-000120,partial,6,0.8571,"revenue, net_income, operating_income, total_assets, stockholders_equity, cash_and_cash_equivalents",total_liabilities,False

@@ -1,0 +1,5 @@
+ticker,form,filing_date,accession_number,facts_detected,contexts_detected,metrics_found,metrics_requested,completeness_rate,status,output_path,error
+C,10-Q,2026-05-07,0000831001-26-000019,5491,2210,6,7,0.8571,partial,data\processed\sec_inline_xbrl\C\10-Q\0000831001-26-000019.json,
+V,10-Q,2026-07-29,0001403161-26-000104,1129,311,7,7,1.0,complete,data\processed\sec_inline_xbrl\V\10-Q\0001403161-26-000104.json,
+ABT,10-Q,2026-07-28,0001628280-26-050134,1132,490,6,7,0.8571,partial,data\processed\sec_inline_xbrl\ABT\10-Q\0001628280-26-050134.json,
+SLB,10-Q,2026-07-29,0001193125-26-322595,1103,388,5,7,0.7143,partial,data\processed\sec_inline_xbrl\SLB\10-Q\0001193125-26-322595.json,

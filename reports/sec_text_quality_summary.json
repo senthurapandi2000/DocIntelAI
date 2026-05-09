@@ -1,0 +1,14 @@
+{
+  "documents_checked": 88,
+  "passed": 88,
+  "review_short": 0,
+  "review_noisy": 0,
+  "missing_or_empty": 0,
+  "duplicate_documents": 0,
+  "average_words_by_form": {
+    "10-K": 81708.28,
+    "10-Q": 35898.9,
+    "8-K": 889.27
+  },
+  "validation_passed": true
+}

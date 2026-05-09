@@ -1,0 +1,71 @@
+{
+  "total_documents": 88,
+  "total_companies": 30,
+  "split_counts": {
+    "train": 61,
+    "test": 15,
+    "validation": 12
+  },
+  "label_counts": {
+    "8-K": 30,
+    "10-K": 29,
+    "10-Q": 29
+  },
+  "split_label_counts": {
+    "test": {
+      "10-K": 5,
+      "10-Q": 5,
+      "8-K": 5
+    },
+    "train": {
+      "10-K": 20,
+      "10-Q": 20,
+      "8-K": 21
+    },
+    "validation": {
+      "10-K": 4,
+      "10-Q": 4,
+      "8-K": 4
+    }
+  },
+  "companies_by_split": {
+    "train": [
+      "ABT",
+      "BA",
+      "CAT",
+      "COP",
+      "EOG",
+      "GE",
+      "GS",
+      "HD",
+      "IBM",
+      "JNJ",
+      "JPM",
+      "MCD",
+      "MRK",
+      "MSFT",
+      "NKE",
+      "ORCL",
+      "PFE",
+      "UNH",
+      "UPS",
+      "V",
+      "XOM"
+    ],
+    "validation": [
+      "C",
+      "COST",
+      "T",
+      "WMT"
+    ],
+    "test": [
+      "AAPL",
+      "BAC",
+      "CVX",
+      "NVDA",
+      "SLB"
+    ]
+  },
+  "company_overlap": false,
+  "random_seed": 42
+}

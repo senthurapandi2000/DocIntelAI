@@ -1,0 +1,11 @@
+{
+  "external_companies_requested": 5,
+  "external_companies_evaluated": 5,
+  "documents_evaluated": 15,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "average_confidence_margin": 1.2534,
+  "incorrect_predictions": 0,
+  "training_company_overlap": false,
+  "failed_companies": []
+}

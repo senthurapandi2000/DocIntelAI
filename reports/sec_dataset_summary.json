@@ -1,0 +1,17 @@
+{
+  "companies": 30,
+  "manifest_rows": 88,
+  "forms_by_type": {
+    "8-K": 30,
+    "10-Q": 29,
+    "10-K": 29
+  },
+  "duplicate_accession_numbers": 0,
+  "invalid_forms": [],
+  "files_found": 88,
+  "readable_files": 88,
+  "valid_sec_documents": 88,
+  "valid_submission_json_files": 30,
+  "valid_companyfacts_json_files": 30,
+  "validation_passed": true
+}

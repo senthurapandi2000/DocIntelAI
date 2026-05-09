@@ -1,0 +1,13 @@
+{
+  "documents_processed": 88,
+  "complete": 18,
+  "partial": 40,
+  "no_facts": 30,
+  "failed": 0,
+  "documents_using_fallback": 4,
+  "fallback_metrics_recovered": 24,
+  "average_completeness": 0.5795,
+  "annual_quarterly_average_completeness": 0.8793,
+  "annual_quarterly_without_facts": 0,
+  "documents_requiring_review": 0
+}

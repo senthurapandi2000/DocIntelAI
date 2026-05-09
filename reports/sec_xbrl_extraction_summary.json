@@ -1,0 +1,158 @@
+{
+  "documents_processed": 88,
+  "complete_extractions": 17,
+  "partial_extractions": 37,
+  "documents_without_facts": 34,
+  "failed_extractions": 0,
+  "average_completeness_rate": 0.5406,
+  "metric_coverage": {
+    "revenue": {
+      "documents_found": 51,
+      "documents_checked": 88,
+      "coverage_rate": 0.5795
+    },
+    "net_income": {
+      "documents_found": 54,
+      "documents_checked": 88,
+      "coverage_rate": 0.6136
+    },
+    "operating_income": {
+      "documents_found": 30,
+      "documents_checked": 88,
+      "coverage_rate": 0.3409
+    },
+    "total_assets": {
+      "documents_found": 54,
+      "documents_checked": 88,
+      "coverage_rate": 0.6136
+    },
+    "total_liabilities": {
+      "documents_found": 37,
+      "documents_checked": 88,
+      "coverage_rate": 0.4205
+    },
+    "stockholders_equity": {
+      "documents_found": 54,
+      "documents_checked": 88,
+      "coverage_rate": 0.6136
+    },
+    "cash_and_cash_equivalents": {
+      "documents_found": 53,
+      "documents_checked": 88,
+      "coverage_rate": 0.6023
+    }
+  },
+  "coverage_by_form": {
+    "10-K": {
+      "revenue": {
+        "found": 28,
+        "documents": 29,
+        "coverage_rate": 0.9655
+      },
+      "net_income": {
+        "found": 29,
+        "documents": 29,
+        "coverage_rate": 1.0
+      },
+      "operating_income": {
+        "found": 16,
+        "documents": 29,
+        "coverage_rate": 0.5517
+      },
+      "total_assets": {
+        "found": 29,
+        "documents": 29,
+        "coverage_rate": 1.0
+      },
+      "total_liabilities": {
+        "found": 20,
+        "documents": 29,
+        "coverage_rate": 0.6897
+      },
+      "stockholders_equity": {
+        "found": 29,
+        "documents": 29,
+        "coverage_rate": 1.0
+      },
+      "cash_and_cash_equivalents": {
+        "found": 28,
+        "documents": 29,
+        "coverage_rate": 0.9655
+      }
+    },
+    "10-Q": {
+      "revenue": {
+        "found": 23,
+        "documents": 29,
+        "coverage_rate": 0.7931
+      },
+      "net_income": {
+        "found": 25,
+        "documents": 29,
+        "coverage_rate": 0.8621
+      },
+      "operating_income": {
+        "found": 14,
+        "documents": 29,
+        "coverage_rate": 0.4828
+      },
+      "total_assets": {
+        "found": 25,
+        "documents": 29,
+        "coverage_rate": 0.8621
+      },
+      "total_liabilities": {
+        "found": 17,
+        "documents": 29,
+        "coverage_rate": 0.5862
+      },
+      "stockholders_equity": {
+        "found": 25,
+        "documents": 29,
+        "coverage_rate": 0.8621
+      },
+      "cash_and_cash_equivalents": {
+        "found": 25,
+        "documents": 29,
+        "coverage_rate": 0.8621
+      }
+    },
+    "8-K": {
+      "revenue": {
+        "found": 0,
+        "documents": 30,
+        "coverage_rate": 0.0
+      },
+      "net_income": {
+        "found": 0,
+        "documents": 30,
+        "coverage_rate": 0.0
+      },
+      "operating_income": {
+        "found": 0,
+        "documents": 30,
+        "coverage_rate": 0.0
+      },
+      "total_assets": {
+        "found": 0,
+        "documents": 30,
+        "coverage_rate": 0.0
+      },
+      "total_liabilities": {
+        "found": 0,
+        "documents": 30,
+        "coverage_rate": 0.0
+      },
+      "stockholders_equity": {
+        "found": 0,
+        "documents": 30,
+        "coverage_rate": 0.0
+      },
+      "cash_and_cash_equivalents": {
+        "found": 0,
+        "documents": 30,
+        "coverage_rate": 0.0
+      }
+    }
+  }
+}

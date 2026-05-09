@@ -1,0 +1,16 @@
+document_id,ticker,company_name,sector,label,output_path,predicted_label,correct,confidence_margin
+AAPL_10K_2,AAPL,Apple Inc.,Technology,10-K,data\processed\sec_text\AAPL\10-K\2025-10-31_0000320193-25-000079_aapl-20250927.txt,10-K,True,1.3871
+BAC_10K_20,BAC,BANK OF AMERICA CORP /DE/,Financial Services,10-K,data\processed\sec_text\BAC\10-K\2026-02-25_0000070858-26-000157_bac-20251231.txt,10-K,True,0.8891
+CVX_10K_63,CVX,CHEVRON CORP,Energy,10-K,data\processed\sec_text\CVX\10-K\2026-02-24_0000093410-26-000078_cvx-20251231.txt,10-K,True,1.184
+NVDA_10K_8,NVDA,NVIDIA CORP,Technology,10-K,data\processed\sec_text\NVDA\10-K\2026-02-25_0001045810-26-000021_nvda-20260125.txt,10-K,True,1.246
+SLB_10K_69,SLB,SLB LIMITED/NV,Energy,10-K,data\processed\sec_text\SLB\10-K\2026-01-23_0001193125-26-021017_slb-20251231.txt,10-K,True,1.2625
+AAPL_10Q_0,AAPL,Apple Inc.,Technology,10-Q,data\processed\sec_text\AAPL\10-Q\2026-05-01_0000320193-26-000013_aapl-20260328.txt,10-Q,True,1.2513
+BAC_10Q_19,BAC,BANK OF AMERICA CORP /DE/,Financial Services,10-Q,data\processed\sec_text\BAC\10-Q\2026-05-01_0000070858-26-000249_bac-20260331.txt,10-Q,True,0.8405
+CVX_10Q_62,CVX,CHEVRON CORP,Energy,10-Q,data\processed\sec_text\CVX\10-Q\2026-05-07_0000093410-26-000113_cvx-20260331.txt,10-Q,True,1.1056
+NVDA_10Q_7,NVDA,NVIDIA CORP,Technology,10-Q,data\processed\sec_text\NVDA\10-Q\2026-05-20_0001045810-26-000052_nvda-20260426.txt,10-Q,True,1.2329
+SLB_10Q_67,SLB,SLB LIMITED/NV,Energy,10-Q,data\processed\sec_text\SLB\10-Q\2026-07-29_0001193125-26-322595_slb-20260630.txt,10-Q,True,1.3504
+AAPL_8K_1,AAPL,Apple Inc.,Technology,8-K,data\processed\sec_text\AAPL\8-K\2026-04-30_0000320193-26-000011_aapl-20260430.txt,8-K,True,2.0086
+BAC_8K_18,BAC,BANK OF AMERICA CORP /DE/,Financial Services,8-K,data\processed\sec_text\BAC\8-K\2026-07-24_0000070858-26-000364_bac-20260723.txt,8-K,True,1.7716
+CVX_8K_61,CVX,CHEVRON CORP,Energy,8-K,data\processed\sec_text\CVX\8-K\2026-05-29_0000093410-26-000125_cvx-20260527.txt,8-K,True,1.4864
+NVDA_8K_6,NVDA,NVIDIA CORP,Technology,8-K,data\processed\sec_text\NVDA\8-K\2026-07-02_0001045810-26-000060_nvda-20260628.txt,8-K,True,1.121
+SLB_8K_68,SLB,SLB LIMITED/NV,Energy,8-K,data\processed\sec_text\SLB\8-K\2026-07-24_0001193125-26-315068_d122193d8k.txt,8-K,True,2.0681

@@ -1,0 +1,12 @@
+{
+  "documents_checked": 88,
+  "annual_quarterly_documents": 58,
+  "event_documents": 30,
+  "failed_documents": 0,
+  "missing_output_files": 0,
+  "annual_quarterly_without_facts": 0,
+  "documents_using_fallback": 4,
+  "fallback_metrics_recovered": 24,
+  "annual_quarterly_average_completeness": 0.8793,
+  "validation_passed": true
+}

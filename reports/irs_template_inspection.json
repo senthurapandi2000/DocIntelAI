@@ -1,0 +1,171 @@
+{
+  "templates": {
+    "form_w2_2026.pdf": {
+      "filename": "form_w2_2026.pdf",
+      "file_size_bytes": 1349127,
+      "page_count": 11,
+      "pages": [
+        {
+          "page_number": 1,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 1571,
+          "text_preview": "Attention: \nYou may file Forms W-2 and W-3 electronically on the SSA\u2019s Employer \nW-2 Filing Instructions and Information web page, which is also accessible \nat www.socialsecurity.gov/employer.  You can create fill-in versions of \nForms W-2 and W-3 for filing with SSA. You may also print out copies for \nfiling with state or local governments, distribution to your employees, and \nfor your records.\nNote: Copy A of this form is provided for informational purposes only. Copy A appears in \nred, simila",
+          "preview_path": "data\\processed\\irs_template_previews\\form_w2_2026\\page_1.png"
+        },
+        {
+          "page_number": 2,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 1296,
+          "text_preview": "22222\nVOID\na  Employee\u2019s social security number\nFor Official Use Only \nOMB No. 1545-0029 \nb  Employer identification number (EIN)\nc  Employer\u2019s name, address, and ZIP code\nd  Control number\ne  Employee\u2019s first name and initial\nLast name\nSuff.\nf  Employee\u2019s address and ZIP code\n1   Wages, tips, other compensation\n2   Federal income tax withheld\n3   Social security wages\n4   Social security tax withheld\n5   Medicare wages and tips\n6   Medicare tax withheld\n7   Social security tips\n8   Allocated ti",
+          "preview_path": "data\\processed\\irs_template_previews\\form_w2_2026\\page_2.png"
+        },
+        {
+          "page_number": 3,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 979,
+          "text_preview": "22222\na  Employee\u2019s social security number\n OMB No. 1545-0029 \nb  Employer identification number (EIN)\nc  Employer\u2019s name, address, and ZIP code\nd  Control number\ne  Employee\u2019s first name and initial\nLast name\nSuff.\nf  Employee\u2019s address and ZIP code\n1   Wages, tips, other compensation\n2   Federal income tax withheld\n3   Social security wages\n4   Social security tax withheld\n5   Medicare wages and tips\n6   Medicare tax withheld\n7   Social security tips\n8   Allocated tips\n9  \n10   Dependent care ",
+          "preview_path": "data\\processed\\irs_template_previews\\form_w2_2026\\page_3.png"
+        },
+        {
+          "page_number": 4,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 1148,
+          "text_preview": "a  Employee\u2019s social security number\n OMB No. 1545-0029 \nSafe, accurate, \nFAST! Use\nVisit the IRS website at \nwww.irs.gov/efile.\nb  Employer identification number (EIN)\nc  Employer\u2019s name, address, and ZIP code\nd  Control number\ne  Employee\u2019s first name and initial\nLast name\nSuff.\nf  Employee\u2019s address and ZIP code\n1   Wages, tips, other compensation\n2   Federal income tax withheld\n3   Social security wages\n4   Social security tax withheld\n5   Medicare wages and tips\n6   Medicare tax withheld\n7 ",
+          "preview_path": "data\\processed\\irs_template_previews\\form_w2_2026\\page_4.png"
+        },
+        {
+          "page_number": 5,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 3016,
+          "text_preview": "Future developments. For the latest information about \ndevelopments related to Form W-2, such as legislation enacted \nafter it was published, go to www.irs.gov/FormW2.\nNotice to Employee\nDo you have to file? Refer to the Form 1040 instructions to \ndetermine if you are required to file a tax return. Even if you \ndon\u2019t have to file a tax return, you may be eligible for a refund if \nbox 2 shows an amount or if you are eligible for any credit. \nEarned income tax credit (EITC). You may be able to tak",
+          "preview_path": "data\\processed\\irs_template_previews\\form_w2_2026\\page_5.png"
+        },
+        {
+          "page_number": 6,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 1285,
+          "text_preview": "a  Employee\u2019s social security number\n OMB No. 1545-0029 \nThis information is being furnished to the Internal Revenue Service. If you \nare required to file a tax return, a negligence penalty or other sanction \nmay be imposed on you if this income is taxable and you fail to report it.\nb  Employer identification number (EIN)\nc  Employer\u2019s name, address, and ZIP code\nd  Control number\ne  Employee\u2019s first name and initial\nLast name\nSuff.\nf  Employee\u2019s address and ZIP code\n1   Wages, tips, other compe",
+          "preview_path": "data\\processed\\irs_template_previews\\form_w2_2026\\page_6.png"
+        },
+        {
+          "page_number": 7,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 5146,
+          "text_preview": "Instructions for Employee\n(See also Notice to Employee on the back of Copy B.)\nBox 1. Enter this amount on the wages line of your tax return unless those \ninstructions direct you to report it elsewhere. \nBox 2. Enter this amount on the federal income tax withheld line of your tax \nreturn.\nBox 5. You may be required to report this amount on Form 8959. See the \nForm 1040 instructions to determine if you are required to complete Form \n8959.\nBox 6. This amount includes the 1.45% Medicare tax withhel",
+          "preview_path": "data\\processed\\irs_template_previews\\form_w2_2026\\page_7.png"
+        },
+        {
+          "page_number": 8,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 1001,
+          "text_preview": "a  Employee\u2019s social security number\n OMB No. 1545-0029 \nb  Employer identification number (EIN)\nc  Employer\u2019s name, address, and ZIP code\nd  Control number\ne  Employee\u2019s first name and initial\nLast name\nSuff.\nf  Employee\u2019s address and ZIP code\n1   Wages, tips, other compensation\n2   Federal income tax withheld\n3   Social security wages\n4   Social security tax withheld\n5   Medicare wages and tips\n6   Medicare tax withheld\n7   Social security tips\n8   Allocated tips\n9  \n10   Dependent care benefi",
+          "preview_path": "data\\processed\\irs_template_previews\\form_w2_2026\\page_8.png"
+        },
+        {
+          "page_number": 9,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 4392,
+          "text_preview": "Instructions for Employee (continued from back of Copy C)\nBox 12 (continued)\nM\u2014Uncollected social security or RRTA tax on taxable cost of group-term \nlife insurance over $50,000 (former employees only). See the Form 1040 \ninstructions.\nN\u2014Uncollected Medicare tax on taxable cost of group-term life insurance \nover $50,000 (former employees only). See the Form 1040 instructions.\nP\u2014Excludable moving expense reimbursements paid directly to a member \nof the U.S. Armed Forces or intelligence community ",
+          "preview_path": "data\\processed\\irs_template_previews\\form_w2_2026\\page_9.png"
+        },
+        {
+          "page_number": 10,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 1059,
+          "text_preview": "VOID\na  Employee\u2019s social security number\n OMB No. 1545-0029 \nb  Employer identification number (EIN)\nc  Employer\u2019s name, address, and ZIP code\nd  Control number\ne  Employee\u2019s first name and initial\nLast name\nSuff.\nf  Employee\u2019s address and ZIP code\n1   Wages, tips, other compensation\n2   Federal income tax withheld\n3   Social security wages\n4   Social security tax withheld\n5   Medicare wages and tips\n6   Medicare tax withheld\n7   Social security tips\n8   Allocated tips\n9  \n10   Dependent care b",
+          "preview_path": "data\\processed\\irs_template_previews\\form_w2_2026\\page_10.png"
+        },
+        {
+          "page_number": 11,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 1800,
+          "text_preview": "Employers, Please Note\u2014\nSpecific information needed to complete Form W-2 is available \nin a separate booklet titled the 2026 General Instructions for \nForms W-2 and W-3. You can order these instructions and \nadditional forms at www.irs.gov/OrderForms.\nCaution: Do not send the SSA any Forms W-2 and W-3 that you \nhave printed from IRS.gov. The SSA is unable to process these \nforms. Instead, you can create and submit them online. See \nE-filing, later.\nDue dates. By February 1, 2027, furnish Copies ",
+          "preview_path": "data\\processed\\irs_template_previews\\form_w2_2026\\page_11.png"
+        }
+      ]
+    },
+    "form_1099_nec_2026.pdf": {
+      "filename": "form_1099_nec_2026.pdf",
+      "file_size_bytes": 537467,
+      "page_count": 6,
+      "pages": [
+        {
+          "page_number": 1,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 3845,
+          "text_preview": "Attention: \nWhich Revision To Use for Which Year. We issue information returns up to a year in \nadvance of when issuers will first file them. For all forms that we do not issue annually (such \nas Form 1040), the year of the revision date is the first year for which issuers are to use the \nform to report amounts. For example, we issued an April 2025 revision of Form 1099-NEC, \nNonemployee Compensation, to use first to report amounts for calendar year 2025. Filers will \nfirst file the April 2025 r",
+          "preview_path": "data\\processed\\irs_template_previews\\form_1099_nec_2026\\page_1.png"
+        },
+        {
+          "page_number": 2,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 1191,
+          "text_preview": "Form 1099-NEC\n(Rev. December 2026)\nCat. No. 72590N\nNonemployee \nCompensation\nCopy A\nFor\nInternal Revenue \nService Center\nDepartment of the Treasury - Internal Revenue Service\nOMB No. 1545-0116\nFor filing \ninformation, \nPrivacy Act, and \nPaperwork \nReduction Act \nNotice, see the \nGeneral \nInstructions for \nCertain \nInformation \nReturns.\nwww.irs.gov/Form1099\nFor calendar year\n7171\nVOID\nCORRECTED\nPAYER\u2019S name\nStreet address\nRoom or suite no.\nCity or town\nTelephone number\nState or province\nCountry\nZ",
+          "preview_path": "data\\processed\\irs_template_previews\\form_1099_nec_2026\\page_2.png"
+        },
+        {
+          "page_number": 3,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 878,
+          "text_preview": "Form 1099-NEC\n(Rev. December 2026)\nNonemployee \nCompensation\nCopy 1\nFor State Tax \nDepartment\nDepartment of the Treasury - Internal Revenue Service\nOMB No. 1545-0116\nFor calendar year\nVOID\nCORRECTED\nPAYER\u2019S name\nStreet address\nRoom or suite no.\nCity or town\nTelephone number\nState or province\nCountry\nZIP or foreign postal code\nPAYER\u2019S TIN\nRECIPIENT\u2019S TIN\nRECIPIENT\u2019S name\nStreet address\nApt. no.\nCity or town\nState or province\nCountry\nZIP or foreign postal code\nAccount number (see instructions)\n1a ",
+          "preview_path": "data\\processed\\irs_template_previews\\form_1099_nec_2026\\page_3.png"
+        },
+        {
+          "page_number": 4,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 1159,
+          "text_preview": "Form 1099-NEC\n(Rev. December 2026)\nNonemployee \nCompensation\nCopy B\nFor Recipient\nDepartment of the Treasury - Internal Revenue Service\nThis is important tax \ninformation and is \nbeing furnished to \nthe IRS. If you are \nrequired to file a \nreturn, a negligence \npenalty or other \nsanction may be \nimposed on you if \nthis income is \ntaxable and the IRS \ndetermines that it \nhas not been \nreported.\nOMB No. 1545-0116\nFor calendar year\nCORRECTED (if checked)\nPAYER\u2019S name\nStreet address\nRoom or suite no",
+          "preview_path": "data\\processed\\irs_template_previews\\form_1099_nec_2026\\page_4.png"
+        },
+        {
+          "page_number": 5,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 3984,
+          "text_preview": "Instructions for Recipient\nYou received this form instead of Form W-2 because the payer \ndid not consider you an employee and did not withhold income \ntax or social security and Medicare taxes.\nIf you believe you are an employee and cannot get the payer to \ncorrect this form, report the amount shown in box 1 on the line for \n\u201cWages, salaries, tips, etc.\u201d of Form 1040, 1040-SR, or 1040-NR. \nYou must also complete Form 8919 and attach it to your return. \nFor more information, see Pub. 1779, Indepe",
+          "preview_path": "data\\processed\\irs_template_previews\\form_1099_nec_2026\\page_5.png"
+        },
+        {
+          "page_number": 6,
+          "width_points": 612.0,
+          "height_points": 792.0,
+          "rotation": 0,
+          "text_characters": 925,
+          "text_preview": "Form 1099-NEC\n(Rev. December 2026)\nNonemployee \nCompensation\nCopy 2\nTo be filed with \nrecipient\u2019s state \nincome tax \nreturn, when \nrequired.\nDepartment of the Treasury - Internal Revenue Service\nOMB No. 1545-0116\nFor calendar year\nVOID\nCORRECTED\nPAYER\u2019S name\nStreet address\nRoom or suite no.\nCity or town\nTelephone number\nState or province\nCountry\nZIP or foreign postal code\nPAYER\u2019S TIN\nRECIPIENT\u2019S TIN\nRECIPIENT\u2019S name\nStreet address\nApt. no.\nCity or town\nState or province\nCountry\nZIP or foreign po",
+          "preview_path": "data\\processed\\irs_template_previews\\form_1099_nec_2026\\page_6.png"
+        }
+      ]
+    }
+  }
+}

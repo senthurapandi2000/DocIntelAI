@@ -1,0 +1,19 @@
+{
+  "source": "Internal Revenue Service",
+  "templates": {
+    "w2_2026": {
+      "source_url": "https://www.irs.gov/pub/irs-pdf/fw2.pdf",
+      "local_path": "data\\external\\irs_templates\\form_w2_2026.pdf",
+      "size_bytes": 1349127,
+      "sha256": "a61501bb0d3e746cc826336a49a3e99e01835a30978687ad37d44c6b9c3ff293",
+      "downloaded_at_utc": "2026-07-30T08:43:51.508606+00:00"
+    },
+    "1099_nec_2026": {
+      "source_url": "https://www.irs.gov/pub/irs-pdf/f1099nec.pdf",
+      "local_path": "data\\external\\irs_templates\\form_1099_nec_2026.pdf",
+      "size_bytes": 537467,
+      "sha256": "68a8f00078be6dd6a4912cc4209df317b31840d5fe19560222d39df9f2f7ff49",
+      "downloaded_at_utc": "2026-07-30T08:43:52.028196+00:00"
+    }
+  }
+}

@@ -1,0 +1,531 @@
+{
+  "document_id": "w2_2026_000213_scan_hard_02",
+  "document_type": "w2",
+  "split": "train",
+  "synthetic": true,
+  "not_for_filing": true,
+  "template_name": "w2_2026",
+  "source_template": "data\\external\\irs_templates\\form_w2_2026.pdf",
+  "source_page_number": 4,
+  "pdf_path": "data\\raw\\irs_synthetic\\w2\\train\\pdf\\w2_2026_000213.pdf",
+  "image_path": "data\\processed\\irs_scan_variants\\w2\\train\\w2_2026_000213_scan_hard_02.jpg",
+  "render_dpi": 200,
+  "image_width": 1700,
+  "image_height": 2200,
+  "fields": {
+    "employee_ssn": "000-76-5247",
+    "employer_ein": "00-3801173",
+    "employer_name_address": "CLARK INC\n168 ADAM CRESCENT APT. 277\nMELTONFORT, ME 81568",
+    "control_number": "W2-2026-000213",
+    "employee_first_name": "SHANNON Z.",
+    "employee_last_name": "BAKER",
+    "employee_suffix": "",
+    "employee_address": "641 DEREK FIELD APT. 030\nSOUTH DEBORAH, SD 32191",
+    "wages": "51,020.31",
+    "federal_tax_withheld": "9,808.14",
+    "social_security_wages": "51,020.31",
+    "social_security_tax_withheld": "3,163.26",
+    "medicare_wages": "51,020.31",
+    "medicare_tax_withheld": "739.79",
+    "social_security_tips": "0.00",
+    "allocated_tips": "0.00",
+    "dependent_care_benefits": "0.00",
+    "nonqualified_plans": "0.00",
+    "box12a_code": "",
+    "box12a_amount": "",
+    "box12b_code": "DD",
+    "box12b_amount": "12,968.21",
+    "box12c_code": "",
+    "box12c_amount": "",
+    "box12d_code": "",
+    "box12d_amount": "",
+    "statutory_employee": false,
+    "retirement_plan": false,
+    "third_party_sick_pay": false,
+    "other": "",
+    "tipped_occupation_codes": "",
+    "state": "SD",
+    "employer_state_id": "SD-2980663",
+    "state_wages": "51,020.31",
+    "state_income_tax": "543.32",
+    "local_wages": "",
+    "local_income_tax": "",
+    "locality_name": ""
+  },
+  "field_boxes_pdf_points": {
+    "employee_ssn": [
+      153.67,
+      44.46,
+      275.86,
+      57.05
+    ],
+    "employer_ein": [
+      39.99,
+      68.9,
+      325.85,
+      80.75
+    ],
+    "employer_name_address": [
+      39.99,
+      93.34,
+      325.85,
+      149.99
+    ],
+    "control_number": [
+      39.99,
+      164.81,
+      325.85,
+      177.03
+    ],
+    "employee_first_name": [
+      39.99,
+      192.58,
+      175.89,
+      204.43
+    ],
+    "employee_last_name": [
+      185.14,
+      192.58,
+      296.23,
+      204.43
+    ],
+    "employee_suffix": [
+      303.63,
+      192.58,
+      325.85,
+      204.43
+    ],
+    "employee_address": [
+      39.99,
+      255.53,
+      325.85,
+      284.41
+    ],
+    "wages": [
+      336.96,
+      68.9,
+      449.9,
+      80.75
+    ],
+    "federal_tax_withheld": [
+      459.15,
+      68.9,
+      573.2,
+      80.75
+    ],
+    "social_security_wages": [
+      336.96,
+      92.97,
+      449.9,
+      104.82
+    ],
+    "social_security_tax_withheld": [
+      459.15,
+      92.97,
+      573.2,
+      104.82
+    ],
+    "medicare_wages": [
+      336.96,
+      117.04,
+      449.9,
+      128.89
+    ],
+    "medicare_tax_withheld": [
+      459.15,
+      117.04,
+      573.2,
+      128.89
+    ],
+    "social_security_tips": [
+      336.96,
+      141.11,
+      449.9,
+      152.59
+    ],
+    "allocated_tips": [
+      459.15,
+      141.11,
+      573.2,
+      152.59
+    ],
+    "dependent_care_benefits": [
+      459.15,
+      164.81,
+      573.2,
+      177.03
+    ],
+    "nonqualified_plans": [
+      336.96,
+      176.65,
+      449.9,
+      188.87
+    ],
+    "box12a_code": [
+      457.3,
+      196.28,
+      486.93,
+      202.95
+    ],
+    "box12a_amount": [
+      492.48,
+      196.28,
+      573.2,
+      202.95
+    ],
+    "box12b_code": [
+      457.3,
+      220.35,
+      486.93,
+      227.01
+    ],
+    "box12b_amount": [
+      492.48,
+      220.35,
+      573.2,
+      227.01
+    ],
+    "box12c_code": [
+      457.3,
+      244.42,
+      486.93,
+      251.08
+    ],
+    "box12c_amount": [
+      492.48,
+      244.42,
+      573.2,
+      251.08
+    ],
+    "box12d_code": [
+      457.3,
+      268.49,
+      486.93,
+      275.15
+    ],
+    "box12d_amount": [
+      492.48,
+      268.49,
+      573.2,
+      275.15
+    ],
+    "statutory_employee": [
+      348.44,
+      205.17,
+      357.7,
+      213.68
+    ],
+    "retirement_plan": [
+      385.1,
+      205.17,
+      394.35,
+      213.68
+    ],
+    "third_party_sick_pay": [
+      420.64,
+      205.17,
+      429.9,
+      213.68
+    ],
+    "other": [
+      336.96,
+      227.75,
+      449.9,
+      261.08
+    ],
+    "tipped_occupation_codes": [
+      336.96,
+      274.04,
+      449.9,
+      285.89
+    ],
+    "state": [
+      38.88,
+      299.96,
+      62.95,
+      311.07
+    ],
+    "employer_state_id": [
+      66.65,
+      299.96,
+      190.7,
+      311.07
+    ],
+    "state_wages": [
+      198.1,
+      299.96,
+      277.71,
+      311.07
+    ],
+    "state_income_tax": [
+      285.12,
+      299.96,
+      357.33,
+      311.07
+    ],
+    "local_wages": [
+      362.88,
+      299.96,
+      443.6,
+      311.07
+    ],
+    "local_income_tax": [
+      449.9,
+      299.96,
+      522.1,
+      311.07
+    ],
+    "locality_name": [
+      529.51,
+      299.96,
+      573.2,
+      311.07
+    ]
+  },
+  "field_boxes_pixels": {
+    "employee_ssn": [
+      457,
+      111,
+      797,
+      156
+    ],
+    "employer_ein": [
+      139,
+      168,
+      934,
+      226
+    ],
+    "employer_name_address": [
+      133,
+      236,
+      931,
+      419
+    ],
+    "control_number": [
+      131,
+      435,
+      925,
+      494
+    ],
+    "employee_first_name": [
+      128,
+      512,
+      507,
+      557
+    ],
+    "employee_last_name": [
+      531,
+      525,
+      841,
+      567
+    ],
+    "employee_suffix": [
+      860,
+      535,
+      923,
+      570
+    ],
+    "employee_address": [
+      121,
+      687,
+      917,
+      792
+    ],
+    "wages": [
+      964,
+      194,
+      1278,
+      237
+    ],
+    "federal_tax_withheld": [
+      1302,
+      205,
+      1620,
+      248
+    ],
+    "social_security_wages": [
+      961,
+      261,
+      1276,
+      304
+    ],
+    "social_security_tax_withheld": [
+      1300,
+      272,
+      1618,
+      315
+    ],
+    "medicare_wages": [
+      959,
+      328,
+      1274,
+      371
+    ],
+    "medicare_tax_withheld": [
+      1298,
+      339,
+      1616,
+      382
+    ],
+    "social_security_tips": [
+      957,
+      395,
+      1272,
+      437
+    ],
+    "allocated_tips": [
+      1296,
+      406,
+      1614,
+      448
+    ],
+    "dependent_care_benefits": [
+      1294,
+      472,
+      1612,
+      516
+    ],
+    "nonqualified_plans": [
+      954,
+      494,
+      1269,
+      538
+    ],
+    "box12a_code": [
+      1287,
+      559,
+      1370,
+      580
+    ],
+    "box12a_amount": [
+      1385,
+      562,
+      1609,
+      588
+    ],
+    "box12b_code": [
+      1285,
+      625,
+      1368,
+      647
+    ],
+    "box12b_amount": [
+      1383,
+      629,
+      1607,
+      655
+    ],
+    "box12c_code": [
+      1282,
+      692,
+      1366,
+      713
+    ],
+    "box12c_amount": [
+      1380,
+      696,
+      1605,
+      721
+    ],
+    "box12d_code": [
+      1280,
+      759,
+      1364,
+      780
+    ],
+    "box12d_amount": [
+      1378,
+      763,
+      1603,
+      788
+    ],
+    "statutory_employee": [
+      984,
+      574,
+      1011,
+      599
+    ],
+    "retirement_plan": [
+      1086,
+      577,
+      1112,
+      602
+    ],
+    "third_party_sick_pay": [
+      1184,
+      580,
+      1211,
+      605
+    ],
+    "other": [
+      948,
+      636,
+      1265,
+      738
+    ],
+    "tipped_occupation_codes": [
+      946,
+      764,
+      1260,
+      807
+    ],
+    "state": [
+      116,
+      810,
+      184,
+      843
+    ],
+    "employer_state_id": [
+      193,
+      812,
+      539,
+      854
+    ],
+    "state_wages": [
+      558,
+      824,
+      779,
+      862
+    ],
+    "state_income_tax": [
+      799,
+      831,
+      1001,
+      869
+    ],
+    "local_wages": [
+      1015,
+      838,
+      1240,
+      876
+    ],
+    "local_income_tax": [
+      1257,
+      846,
+      1458,
+      883
+    ],
+    "locality_name": [
+      1478,
+      853,
+      1600,
+      888
+    ]
+  },
+  "parent_document_id": "w2_2026_000213",
+  "variant": true,
+  "variant_profile": "hard",
+  "annotation_path": "data\\annotations\\irs_scan_variants\\w2\\train\\w2_2026_000213_scan_hard_02.json",
+  "source_image_path": "data\\raw\\irs_synthetic\\w2\\train\\images\\w2_2026_000213.png",
+  "augmentation": {
+    "rotation_degrees": -1.806,
+    "blur_radius": 1.1584,
+    "brightness_factor": 0.9792,
+    "contrast_factor": 0.863,
+    "noise_sigma": 8.5795,
+    "jpeg_quality": 70,
+    "low_resolution_scale": 0.8301,
+    "shadow_strength": 0.215,
+    "shadow_direction": "right"
+  }
+}

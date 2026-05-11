@@ -1,0 +1,24 @@
+{
+  "base_documents": 500,
+  "variants_checked": 1000,
+  "expected_variants": 1000,
+  "variants_passed": 1000,
+  "variants_failed": 0,
+  "profile_counts": {
+    "mild": 500,
+    "hard": 500
+  },
+  "split_counts": {
+    "train": 732,
+    "validation": 162,
+    "test": 106
+  },
+  "document_type_counts": {
+    "w2": 500,
+    "1099_nec": 500
+  },
+  "duplicate_variant_ids": 0,
+  "parents_with_wrong_variant_count": 0,
+  "parents_missing_mild_or_hard_profile": 0,
+  "validation_passed": true
+}

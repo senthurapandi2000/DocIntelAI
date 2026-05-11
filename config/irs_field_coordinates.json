@@ -1,0 +1,838 @@
+{
+  "coordinate_system": "PyMuPDF page coordinates for official IRS US Letter PDFs: origin top-left, units PDF points",
+  "page_size_points": [
+    612,
+    792
+  ],
+  "templates": {
+    "w2_2026": {
+      "source_filename": "form_w2_2026.pdf",
+      "source_page_number": 4,
+      "source_page_index": 3,
+      "copy": "Copy B - Employee federal tax return",
+      "fields": {
+        "employee_ssn": {
+          "rect": [
+            153.67,
+            44.46,
+            275.86,
+            57.05
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "employer_ein": {
+          "rect": [
+            39.99,
+            68.9,
+            325.85,
+            80.75
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "employer_name_address": {
+          "rect": [
+            39.99,
+            93.34,
+            325.85,
+            149.99
+          ],
+          "kind": "text",
+          "font_size": 6.3,
+          "align": "left",
+          "multiline": true
+        },
+        "control_number": {
+          "rect": [
+            39.99,
+            164.81,
+            325.85,
+            177.03
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "employee_first_name": {
+          "rect": [
+            39.99,
+            192.58,
+            175.89,
+            204.43
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "employee_last_name": {
+          "rect": [
+            185.14,
+            192.58,
+            296.23,
+            204.43
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "employee_suffix": {
+          "rect": [
+            303.63,
+            192.58,
+            325.85,
+            204.43
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "employee_address": {
+          "rect": [
+            39.99,
+            255.53,
+            325.85,
+            284.41
+          ],
+          "kind": "text",
+          "font_size": 6.3,
+          "align": "left",
+          "multiline": true
+        },
+        "wages": {
+          "rect": [
+            336.96,
+            68.9,
+            449.9,
+            80.75
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "federal_tax_withheld": {
+          "rect": [
+            459.15,
+            68.9,
+            573.2,
+            80.75
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "social_security_wages": {
+          "rect": [
+            336.96,
+            92.97,
+            449.9,
+            104.82
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "social_security_tax_withheld": {
+          "rect": [
+            459.15,
+            92.97,
+            573.2,
+            104.82
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "medicare_wages": {
+          "rect": [
+            336.96,
+            117.04,
+            449.9,
+            128.89
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "medicare_tax_withheld": {
+          "rect": [
+            459.15,
+            117.04,
+            573.2,
+            128.89
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "social_security_tips": {
+          "rect": [
+            336.96,
+            141.11,
+            449.9,
+            152.59
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "allocated_tips": {
+          "rect": [
+            459.15,
+            141.11,
+            573.2,
+            152.59
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "dependent_care_benefits": {
+          "rect": [
+            459.15,
+            164.81,
+            573.2,
+            177.03
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "nonqualified_plans": {
+          "rect": [
+            336.96,
+            176.65,
+            449.9,
+            188.87
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "box12a_code": {
+          "rect": [
+            457.3,
+            196.28,
+            486.93,
+            202.95
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "box12a_amount": {
+          "rect": [
+            492.48,
+            196.28,
+            573.2,
+            202.95
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "box12b_code": {
+          "rect": [
+            457.3,
+            220.35,
+            486.93,
+            227.01
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "box12b_amount": {
+          "rect": [
+            492.48,
+            220.35,
+            573.2,
+            227.01
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "box12c_code": {
+          "rect": [
+            457.3,
+            244.42,
+            486.93,
+            251.08
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "box12c_amount": {
+          "rect": [
+            492.48,
+            244.42,
+            573.2,
+            251.08
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "box12d_code": {
+          "rect": [
+            457.3,
+            268.49,
+            486.93,
+            275.15
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "box12d_amount": {
+          "rect": [
+            492.48,
+            268.49,
+            573.2,
+            275.15
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "statutory_employee": {
+          "rect": [
+            348.44,
+            205.17,
+            357.7,
+            213.68
+          ],
+          "kind": "checkbox",
+          "font_size": 6.5,
+          "align": "center",
+          "multiline": false
+        },
+        "retirement_plan": {
+          "rect": [
+            385.1,
+            205.17,
+            394.35,
+            213.68
+          ],
+          "kind": "checkbox",
+          "font_size": 6.5,
+          "align": "center",
+          "multiline": false
+        },
+        "third_party_sick_pay": {
+          "rect": [
+            420.64,
+            205.17,
+            429.9,
+            213.68
+          ],
+          "kind": "checkbox",
+          "font_size": 6.5,
+          "align": "center",
+          "multiline": false
+        },
+        "other": {
+          "rect": [
+            336.96,
+            227.75,
+            449.9,
+            261.08
+          ],
+          "kind": "text",
+          "font_size": 6.3,
+          "align": "left",
+          "multiline": true
+        },
+        "tipped_occupation_codes": {
+          "rect": [
+            336.96,
+            274.04,
+            449.9,
+            285.89
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "state": {
+          "rect": [
+            38.88,
+            299.96,
+            62.95,
+            311.07
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "employer_state_id": {
+          "rect": [
+            66.65,
+            299.96,
+            190.7,
+            311.07
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "state_wages": {
+          "rect": [
+            198.1,
+            299.96,
+            277.71,
+            311.07
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "state_income_tax": {
+          "rect": [
+            285.12,
+            299.96,
+            357.33,
+            311.07
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "local_wages": {
+          "rect": [
+            362.88,
+            299.96,
+            443.6,
+            311.07
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "local_income_tax": {
+          "rect": [
+            449.9,
+            299.96,
+            522.1,
+            311.07
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "locality_name": {
+          "rect": [
+            529.51,
+            299.96,
+            573.2,
+            311.07
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        }
+      },
+      "page_size_points": [
+        612,
+        792
+      ]
+    },
+    "1099_nec_2026": {
+      "source_filename": "form_1099_nec_2026.pdf",
+      "source_page_number": 4,
+      "source_page_index": 3,
+      "copy": "Copy B - Recipient",
+      "fields": {
+        "payer_name": {
+          "rect": [
+            53.69,
+            46.31,
+            290.67,
+            68.53
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "payer_street": {
+          "rect": [
+            53.69,
+            80.75,
+            205.51,
+            92.6
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "payer_suite": {
+          "rect": [
+            211.06,
+            80.75,
+            290.67,
+            92.6
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "payer_city": {
+          "rect": [
+            53.69,
+            104.82,
+            205.51,
+            116.67
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "payer_phone": {
+          "rect": [
+            211.06,
+            104.82,
+            290.67,
+            116.67
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "payer_state": {
+          "rect": [
+            53.69,
+            128.89,
+            168.48,
+            140.74
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "payer_country": {
+          "rect": [
+            175.89,
+            128.89,
+            205.51,
+            140.74
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "payer_zip": {
+          "rect": [
+            211.06,
+            128.89,
+            290.67,
+            140.74
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "payer_tin": {
+          "rect": [
+            53.69,
+            155.55,
+            168.48,
+            175.91
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "recipient_tin": {
+          "rect": [
+            175.89,
+            155.55,
+            290.67,
+            175.91
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "recipient_name": {
+          "rect": [
+            53.69,
+            190.73,
+            290.67,
+            212.94
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "recipient_street": {
+          "rect": [
+            53.69,
+            225.16,
+            240.69,
+            237.01
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "recipient_apt": {
+          "rect": [
+            248.09,
+            225.16,
+            290.67,
+            237.01
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "recipient_city": {
+          "rect": [
+            53.69,
+            249.23,
+            290.67,
+            261.08
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "recipient_state": {
+          "rect": [
+            53.69,
+            273.3,
+            168.48,
+            284.41
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "recipient_country": {
+          "rect": [
+            175.89,
+            273.3,
+            205.51,
+            284.41
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "recipient_zip": {
+          "rect": [
+            211.06,
+            273.3,
+            290.67,
+            284.41
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "calendar_year": {
+          "rect": [
+            411.02,
+            94.45,
+            457.3,
+            105.56
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "nonemployee_compensation": {
+          "rect": [
+            303.63,
+            122.22,
+            490.63,
+            140.74
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "cash_tips": {
+          "rect": [
+            303.63,
+            157.4,
+            390.65,
+            175.91
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "ttoc": {
+          "rect": [
+            403.61,
+            157.4,
+            490.63,
+            175.91
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "overtime_compensation": {
+          "rect": [
+            303.63,
+            193.32,
+            490.63,
+            212.94
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "direct_sales": {
+          "rect": [
+            481.37,
+            218.5,
+            490.63,
+            231.46
+          ],
+          "kind": "checkbox",
+          "font_size": 6.5,
+          "align": "center",
+          "multiline": false
+        },
+        "excess_golden_parachute": {
+          "rect": [
+            303.63,
+            251.82,
+            490.63,
+            284.41
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "federal_income_tax_withheld": {
+          "rect": [
+            303.63,
+            298.11,
+            490.63,
+            319.21
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "account_number": {
+          "rect": [
+            53.69,
+            335.14,
+            290.67,
+            355.5
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "state_tax_withheld": {
+          "rect": [
+            303.63,
+            335.14,
+            390.65,
+            346.25
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        },
+        "state_payer_number": {
+          "rect": [
+            403.61,
+            335.14,
+            490.63,
+            346.25
+          ],
+          "kind": "text",
+          "font_size": 6.5,
+          "align": "left",
+          "multiline": false
+        },
+        "state_income": {
+          "rect": [
+            503.59,
+            335.14,
+            573.2,
+            346.25
+          ],
+          "kind": "text",
+          "font_size": 7.2,
+          "align": "right",
+          "multiline": false
+        }
+      },
+      "page_size_points": [
+        612,
+        792
+      ]
+    }
+  },
+  "mapping_note": "Converted from A4 preview coordinates to official IRS US Letter coordinates using x'=x*(612/595), y'=y*(612/595)-37."
+}

@@ -1,0 +1,16 @@
+{
+  "documents_checked": 500,
+  "documents_passed": 500,
+  "documents_failed": 0,
+  "document_type_counts": {
+    "w2": 250,
+    "1099_nec": 250
+  },
+  "split_counts": {
+    "train": 366,
+    "validation": 81,
+    "test": 53
+  },
+  "duplicate_document_ids": 0,
+  "validation_passed": true
+}

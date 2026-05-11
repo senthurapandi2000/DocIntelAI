@@ -1,0 +1,414 @@
+{
+  "document_id": "1099_nec_2026_000246_scan_hard_02",
+  "document_type": "1099_nec",
+  "split": "train",
+  "synthetic": true,
+  "not_for_filing": true,
+  "template_name": "1099_nec_2026",
+  "source_template": "data\\external\\irs_templates\\form_1099_nec_2026.pdf",
+  "source_page_number": 4,
+  "pdf_path": "data\\raw\\irs_synthetic\\1099_nec\\train\\pdf\\1099_nec_2026_000246.pdf",
+  "image_path": "data\\processed\\irs_scan_variants\\1099_nec\\train\\1099_nec_2026_000246_scan_hard_02.jpg",
+  "render_dpi": 200,
+  "image_width": 1700,
+  "image_height": 2200,
+  "fields": {
+    "payer_name": "LARSON, LEE AND AGUILAR",
+    "payer_street": "86199 SHERYL GREEN SUITE 843",
+    "payer_suite": "SUITE 554",
+    "payer_city": "HEATHERFURT",
+    "payer_phone": "310-437-9686",
+    "payer_state": "MS",
+    "payer_country": "USA",
+    "payer_zip": "29505",
+    "payer_tin": "00-7972774",
+    "recipient_tin": "000-66-5728",
+    "recipient_name": "DANIEL WEAVER",
+    "recipient_street": "34236 SARAH STREETS APT. 033",
+    "recipient_apt": "APT 47",
+    "recipient_city": "STEPHENBURGH",
+    "recipient_state": "KS",
+    "recipient_country": "USA",
+    "recipient_zip": "53791",
+    "calendar_year": "2026",
+    "nonemployee_compensation": "50,756.40",
+    "cash_tips": "0.00",
+    "ttoc": "",
+    "overtime_compensation": "0.00",
+    "direct_sales": false,
+    "excess_golden_parachute": "0.00",
+    "federal_income_tax_withheld": "2,345.60",
+    "account_number": "NEC-2026-000246",
+    "state_tax_withheld": "1,708.56",
+    "state_payer_number": "KS-8110724",
+    "state_income": "50,756.40"
+  },
+  "field_boxes_pdf_points": {
+    "payer_name": [
+      53.69,
+      46.31,
+      290.67,
+      68.53
+    ],
+    "payer_street": [
+      53.69,
+      80.75,
+      205.51,
+      92.6
+    ],
+    "payer_suite": [
+      211.06,
+      80.75,
+      290.67,
+      92.6
+    ],
+    "payer_city": [
+      53.69,
+      104.82,
+      205.51,
+      116.67
+    ],
+    "payer_phone": [
+      211.06,
+      104.82,
+      290.67,
+      116.67
+    ],
+    "payer_state": [
+      53.69,
+      128.89,
+      168.48,
+      140.74
+    ],
+    "payer_country": [
+      175.89,
+      128.89,
+      205.51,
+      140.74
+    ],
+    "payer_zip": [
+      211.06,
+      128.89,
+      290.67,
+      140.74
+    ],
+    "payer_tin": [
+      53.69,
+      155.55,
+      168.48,
+      175.91
+    ],
+    "recipient_tin": [
+      175.89,
+      155.55,
+      290.67,
+      175.91
+    ],
+    "recipient_name": [
+      53.69,
+      190.73,
+      290.67,
+      212.94
+    ],
+    "recipient_street": [
+      53.69,
+      225.16,
+      240.69,
+      237.01
+    ],
+    "recipient_apt": [
+      248.09,
+      225.16,
+      290.67,
+      237.01
+    ],
+    "recipient_city": [
+      53.69,
+      249.23,
+      290.67,
+      261.08
+    ],
+    "recipient_state": [
+      53.69,
+      273.3,
+      168.48,
+      284.41
+    ],
+    "recipient_country": [
+      175.89,
+      273.3,
+      205.51,
+      284.41
+    ],
+    "recipient_zip": [
+      211.06,
+      273.3,
+      290.67,
+      284.41
+    ],
+    "calendar_year": [
+      411.02,
+      94.45,
+      457.3,
+      105.56
+    ],
+    "nonemployee_compensation": [
+      303.63,
+      122.22,
+      490.63,
+      140.74
+    ],
+    "cash_tips": [
+      303.63,
+      157.4,
+      390.65,
+      175.91
+    ],
+    "ttoc": [
+      403.61,
+      157.4,
+      490.63,
+      175.91
+    ],
+    "overtime_compensation": [
+      303.63,
+      193.32,
+      490.63,
+      212.94
+    ],
+    "direct_sales": [
+      481.37,
+      218.5,
+      490.63,
+      231.46
+    ],
+    "excess_golden_parachute": [
+      303.63,
+      251.82,
+      490.63,
+      284.41
+    ],
+    "federal_income_tax_withheld": [
+      303.63,
+      298.11,
+      490.63,
+      319.21
+    ],
+    "account_number": [
+      53.69,
+      335.14,
+      290.67,
+      355.5
+    ],
+    "state_tax_withheld": [
+      303.63,
+      335.14,
+      390.65,
+      346.25
+    ],
+    "state_payer_number": [
+      403.61,
+      335.14,
+      490.63,
+      346.25
+    ],
+    "state_income": [
+      503.59,
+      335.14,
+      573.2,
+      346.25
+    ]
+  },
+  "field_boxes_pixels": {
+    "payer_name": [
+      117,
+      131,
+      776,
+      214
+    ],
+    "payer_street": [
+      120,
+      234,
+      543,
+      281
+    ],
+    "payer_suite": [
+      557,
+      226,
+      779,
+      266
+    ],
+    "payer_city": [
+      122,
+      301,
+      545,
+      348
+    ],
+    "payer_phone": [
+      559,
+      293,
+      781,
+      333
+    ],
+    "payer_state": [
+      124,
+      371,
+      444,
+      415
+    ],
+    "payer_country": [
+      464,
+      368,
+      547,
+      404
+    ],
+    "payer_zip": [
+      561,
+      360,
+      783,
+      400
+    ],
+    "payer_tin": [
+      127,
+      445,
+      448,
+      513
+    ],
+    "recipient_tin": [
+      467,
+      434,
+      786,
+      502
+    ],
+    "recipient_name": [
+      130,
+      532,
+      790,
+      616
+    ],
+    "recipient_street": [
+      133,
+      631,
+      654,
+      682
+    ],
+    "recipient_apt": [
+      673,
+      627,
+      792,
+      664
+    ],
+    "recipient_city": [
+      136,
+      694,
+      794,
+      749
+    ],
+    "recipient_state": [
+      138,
+      772,
+      458,
+      814
+    ],
+    "recipient_country": [
+      478,
+      769,
+      561,
+      802
+    ],
+    "recipient_zip": [
+      575,
+      761,
+      797,
+      799
+    ],
+    "calendar_year": [
+      1114,
+      248,
+      1243,
+      284
+    ],
+    "nonemployee_compensation": [
+      817,
+      323,
+      1339,
+      392
+    ],
+    "cash_tips": [
+      821,
+      429,
+      1064,
+      490
+    ],
+    "ttoc": [
+      1098,
+      420,
+      1342,
+      480
+    ],
+    "overtime_compensation": [
+      824,
+      520,
+      1346,
+      593
+    ],
+    "direct_sales": [
+      1320,
+      590,
+      1347,
+      627
+    ],
+    "excess_golden_parachute": [
+      830,
+      683,
+      1352,
+      790
+    ],
+    "federal_income_tax_withheld": [
+      834,
+      811,
+      1356,
+      887
+    ],
+    "account_number": [
+      144,
+      933,
+      803,
+      1012
+    ],
+    "state_tax_withheld": [
+      837,
+      923,
+      1080,
+      962
+    ],
+    "state_payer_number": [
+      1115,
+      914,
+      1358,
+      953
+    ],
+    "state_income": [
+      1393,
+      906,
+      1587,
+      944
+    ]
+  },
+  "parent_document_id": "1099_nec_2026_000246",
+  "variant": true,
+  "variant_profile": "hard",
+  "annotation_path": "data\\annotations\\irs_scan_variants\\1099_nec\\train\\1099_nec_2026_000246_scan_hard_02.json",
+  "source_image_path": "data\\raw\\irs_synthetic\\1099_nec\\train\\images\\1099_nec_2026_000246.png",
+  "augmentation": {
+    "rotation_degrees": 1.9317,
+    "blur_radius": 1.1076,
+    "brightness_factor": 0.913,
+    "contrast_factor": 0.7885,
+    "noise_sigma": 7.1795,
+    "jpeg_quality": 56,
+    "low_resolution_scale": 0.8255,
+    "shadow_strength": 0.1761,
+    "shadow_direction": "right"
+  }
+}

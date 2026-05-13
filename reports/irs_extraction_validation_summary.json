@@ -1,0 +1,25 @@
+{
+  "predictions_path": "reports\\irs_ocr_final_test_predictions.csv",
+  "review_threshold": 0.72,
+  "documents_checked": 159,
+  "fields_checked": 2784,
+  "documents_auto_accepted": 0,
+  "documents_flagged_for_review": 159,
+  "document_review_rate": 1.0,
+  "fields_auto_accepted": 2123,
+  "fields_flagged_for_review": 661,
+  "field_review_rate": 0.2374,
+  "invalid_format_fields": 459,
+  "cross_field_failures": 89,
+  "document_status_counts": {
+    "review_cross_field_failure": 89,
+    "review_required_field_failure": 70
+  },
+  "evaluation_only": {
+    "overall_exact_match_rate": 0.4968,
+    "auto_accepted_field_exact_match_rate": 0.6138,
+    "reviewed_field_exact_match_rate": 0.121,
+    "incorrect_field_capture_rate": 0.4147,
+    "incorrect_fields_auto_accepted": 820
+  }
+}

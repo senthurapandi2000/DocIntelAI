@@ -1,0 +1,36 @@
+{
+  "predictions_file": "C:\\Senthura\\PycharmProjects\\DocIntelAI\\reports\\irs_tesseract_baseline_predictions.csv",
+  "field_predictions": 4263,
+  "documents": 243,
+  "overall_exact_match_rate": 0.4091,
+  "overall_mean_similarity": 66.26,
+  "overall_empty_prediction_rate": 0.1307,
+  "by_quality": {
+    "clean": {
+      "field_predictions": 1421,
+      "exact_match_rate": 0.6179,
+      "mean_similarity": 86.99,
+      "empty_prediction_rate": 0.0218
+    },
+    "hard": {
+      "field_predictions": 1421,
+      "exact_match_rate": 0.1682,
+      "mean_similarity": 40.74,
+      "empty_prediction_rate": 0.2991
+    },
+    "mild": {
+      "field_predictions": 1421,
+      "exact_match_rate": 0.4412,
+      "mean_similarity": 71.07,
+      "empty_prediction_rate": 0.0711
+    }
+  },
+  "error_category_counts": {
+    "exact_match": 1744,
+    "incorrect_below_50": 768,
+    "empty_prediction": 557,
+    "partial_match_75_89": 507,
+    "weak_match_50_74": 482,
+    "near_match_90_plus": 205
+  }
+}

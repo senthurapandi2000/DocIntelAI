@@ -1,0 +1,160 @@
+document_id,parent_document_id,document_type,split,quality,fields_checked,fields_flagged_for_review,required_invalid_fields,cross_field_issue_count,cross_field_issues,average_validation_score,minimum_validation_score,document_review_required,document_status
+w2_2026_000011,w2_2026_000011,w2,test,clean,17,4,0,1,social_security_tax_inconsistent,0.8354,0.6,True,review_cross_field_failure
+w2_2026_000022,w2_2026_000022,w2,test,clean,17,3,0,1,medicare_tax_inconsistent,0.8558,0.64,True,review_cross_field_failure
+w2_2026_000023,w2_2026_000023,w2,test,clean,17,2,1,0,,0.856,0.572,True,review_required_field_failure
+w2_2026_000008,w2_2026_000008,w2,test,clean,17,3,1,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.8105,0.12,True,review_cross_field_failure
+w2_2026_000027,w2_2026_000027,w2,test,clean,17,2,0,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.8592,0.6,True,review_cross_field_failure
+w2_2026_000036,w2_2026_000036,w2,test,clean,17,3,1,0,,0.8178,0.224,True,review_required_field_failure
+w2_2026_000043,w2_2026_000043,w2,test,clean,17,1,0,1,social_security_tax_inconsistent,0.859,0.624,True,review_cross_field_failure
+w2_2026_000057,w2_2026_000057,w2,test,clean,17,2,0,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.8443,0.6,True,review_cross_field_failure
+w2_2026_000062,w2_2026_000062,w2,test,clean,17,4,2,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.8276,0.272,True,review_cross_field_failure
+w2_2026_000066,w2_2026_000066,w2,test,clean,17,2,0,1,social_security_tax_inconsistent,0.8494,0.616,True,review_cross_field_failure
+w2_2026_000069,w2_2026_000069,w2,test,clean,17,3,0,1,social_security_tax_inconsistent,0.8642,0.6,True,review_cross_field_failure
+w2_2026_000093,w2_2026_000093,w2,test,clean,17,4,1,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.8412,0.664,True,review_cross_field_failure
+w2_2026_000116,w2_2026_000116,w2,test,clean,17,3,1,1,social_security_tax_inconsistent,0.8529,0.576,True,review_cross_field_failure
+w2_2026_000120,w2_2026_000120,w2,test,clean,17,3,1,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.8116,0.32,True,review_cross_field_failure
+w2_2026_000121,w2_2026_000121,w2,test,clean,17,3,0,1,social_security_tax_inconsistent,0.8481,0.6,True,review_cross_field_failure
+w2_2026_000123,w2_2026_000123,w2,test,clean,17,3,0,1,social_security_tax_inconsistent,0.8436,0.628,True,review_cross_field_failure
+w2_2026_000132,w2_2026_000132,w2,test,clean,17,3,1,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.8072,0.156,True,review_cross_field_failure
+w2_2026_000133,w2_2026_000133,w2,test,clean,17,3,1,1,social_security_tax_inconsistent,0.8101,0.156,True,review_cross_field_failure
+w2_2026_000134,w2_2026_000134,w2,test,clean,17,2,0,1,social_security_tax_inconsistent,0.8375,0.6,True,review_cross_field_failure
+w2_2026_000147,w2_2026_000147,w2,test,clean,17,2,1,1,social_security_tax_inconsistent,0.8339,0.6,True,review_cross_field_failure
+w2_2026_000174,w2_2026_000174,w2,test,clean,17,2,0,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.8583,0.6,True,review_cross_field_failure
+w2_2026_000186,w2_2026_000186,w2,test,clean,17,2,0,1,social_security_tax_inconsistent,0.86,0.628,True,review_cross_field_failure
+w2_2026_000199,w2_2026_000199,w2,test,clean,17,2,1,1,federal_tax_exceeds_wages,0.8321,0.6,True,review_cross_field_failure
+w2_2026_000220,w2_2026_000220,w2,test,clean,17,4,2,1,social_security_tax_inconsistent,0.7894,0.212,True,review_cross_field_failure
+1099_nec_2026_000004,1099_nec_2026_000004,1099_nec,test,clean,18,1,1,0,,0.886,0.6194,True,review_required_field_failure
+w2_2026_000247,w2_2026_000247,w2,test,clean,17,3,0,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.8409,0.6,True,review_cross_field_failure
+w2_2026_000244,w2_2026_000244,w2,test,clean,17,2,0,1,social_security_tax_inconsistent,0.8524,0.6,True,review_cross_field_failure
+1099_nec_2026_000007,1099_nec_2026_000007,1099_nec,test,clean,18,3,1,0,,0.8468,0.228,True,review_required_field_failure
+1099_nec_2026_000029,1099_nec_2026_000029,1099_nec,test,clean,18,3,2,0,,0.8373,0.272,True,review_required_field_failure
+1099_nec_2026_000047,1099_nec_2026_000047,1099_nec,test,clean,18,4,2,0,,0.8202,0.228,True,review_required_field_failure
+1099_nec_2026_000049,1099_nec_2026_000049,1099_nec,test,clean,18,5,2,0,,0.8268,0.264,True,review_required_field_failure
+1099_nec_2026_000075,1099_nec_2026_000075,1099_nec,test,clean,18,3,2,0,,0.8388,0.272,True,review_required_field_failure
+1099_nec_2026_000107,1099_nec_2026_000107,1099_nec,test,clean,18,3,2,0,,0.8583,0.388,True,review_required_field_failure
+1099_nec_2026_000082,1099_nec_2026_000082,1099_nec,test,clean,18,2,2,0,,0.866,0.244,True,review_required_field_failure
+1099_nec_2026_000104,1099_nec_2026_000104,1099_nec,test,clean,18,3,2,0,,0.8406,0.304,True,review_required_field_failure
+1099_nec_2026_000095,1099_nec_2026_000095,1099_nec,test,clean,18,3,1,0,,0.8521,0.268,True,review_required_field_failure
+1099_nec_2026_000141,1099_nec_2026_000141,1099_nec,test,clean,18,3,2,0,,0.836,0.284,True,review_required_field_failure
+1099_nec_2026_000126,1099_nec_2026_000126,1099_nec,test,clean,18,3,2,0,,0.8416,0.322,True,review_required_field_failure
+1099_nec_2026_000144,1099_nec_2026_000144,1099_nec,test,clean,18,3,1,0,,0.8554,0.272,True,review_required_field_failure
+1099_nec_2026_000145,1099_nec_2026_000145,1099_nec,test,clean,18,3,1,0,,0.8462,0.192,True,review_required_field_failure
+1099_nec_2026_000157,1099_nec_2026_000157,1099_nec,test,clean,18,4,2,0,,0.8276,0.284,True,review_required_field_failure
+1099_nec_2026_000172,1099_nec_2026_000172,1099_nec,test,clean,18,3,1,0,,0.8224,0.192,True,review_required_field_failure
+1099_nec_2026_000193,1099_nec_2026_000193,1099_nec,test,clean,18,3,2,0,,0.8375,0.3,True,review_required_field_failure
+1099_nec_2026_000186,1099_nec_2026_000186,1099_nec,test,clean,18,3,1,1,state_tax_exceeds_state_income,0.8492,0.192,True,review_cross_field_failure
+1099_nec_2026_000200,1099_nec_2026_000200,1099_nec,test,clean,18,2,2,0,,0.8633,0.376,True,review_required_field_failure
+1099_nec_2026_000204,1099_nec_2026_000204,1099_nec,test,clean,18,4,2,0,,0.8228,0.28,True,review_required_field_failure
+1099_nec_2026_000212,1099_nec_2026_000212,1099_nec,test,clean,18,4,2,0,,0.8157,0.192,True,review_required_field_failure
+1099_nec_2026_000207,1099_nec_2026_000207,1099_nec,test,clean,18,3,1,0,,0.8863,0.6188,True,review_required_field_failure
+1099_nec_2026_000220,1099_nec_2026_000220,1099_nec,test,clean,18,1,1,0,,0.8969,0.6373,True,review_required_field_failure
+1099_nec_2026_000229,1099_nec_2026_000229,1099_nec,test,clean,18,3,2,0,,0.8273,0.232,True,review_required_field_failure
+1099_nec_2026_000230,1099_nec_2026_000230,1099_nec,test,clean,18,3,1,0,,0.849,0.192,True,review_required_field_failure
+1099_nec_2026_000236,1099_nec_2026_000236,1099_nec,test,clean,18,5,2,0,,0.8203,0.228,True,review_required_field_failure
+1099_nec_2026_000245,1099_nec_2026_000245,1099_nec,test,clean,18,3,1,0,,0.837,0.3,True,review_required_field_failure
+w2_2026_000008_scan_mild_01,w2_2026_000008,w2,test,mild,17,5,4,1,social_security_tax_inconsistent,0.7186,0.1453,True,review_cross_field_failure
+w2_2026_000008_scan_hard_02,w2_2026_000008,w2,test,hard,17,4,1,2,social_security_tax_inconsistent; federal_tax_exceeds_wages,0.799,0.282,True,review_cross_field_failure
+w2_2026_000011_scan_mild_01,w2_2026_000011,w2,test,mild,17,2,2,1,social_security_tax_inconsistent,0.8113,0.084,True,review_cross_field_failure
+w2_2026_000011_scan_hard_02,w2_2026_000011,w2,test,hard,17,7,3,3,social_security_tax_inconsistent; medicare_tax_inconsistent; federal_tax_exceeds_wages,0.7,0.12,True,review_cross_field_failure
+w2_2026_000022_scan_mild_01,w2_2026_000022,w2,test,mild,17,6,3,1,medicare_tax_inconsistent,0.7283,0.12,True,review_cross_field_failure
+w2_2026_000022_scan_hard_02,w2_2026_000022,w2,test,hard,17,3,1,0,,0.8156,0.3104,True,review_required_field_failure
+w2_2026_000023_scan_mild_01,w2_2026_000023,w2,test,mild,17,6,3,1,medicare_tax_inconsistent,0.7655,0.2356,True,review_cross_field_failure
+w2_2026_000027_scan_mild_01,w2_2026_000027,w2,test,mild,17,6,5,2,medicare_tax_inconsistent; federal_tax_exceeds_wages,0.6723,0.13,True,review_cross_field_failure
+w2_2026_000023_scan_hard_02,w2_2026_000023,w2,test,hard,17,4,3,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.7424,0.2587,True,review_cross_field_failure
+w2_2026_000036_scan_mild_01,w2_2026_000036,w2,test,mild,17,7,3,1,social_security_tax_inconsistent,0.7453,0.172,True,review_cross_field_failure
+w2_2026_000027_scan_hard_02,w2_2026_000027,w2,test,hard,17,5,3,2,social_security_tax_inconsistent; federal_tax_exceeds_wages,0.6915,0.064,True,review_cross_field_failure
+w2_2026_000043_scan_mild_01,w2_2026_000043,w2,test,mild,17,4,2,0,,0.7735,0.1638,True,review_required_field_failure
+w2_2026_000036_scan_hard_02,w2_2026_000036,w2,test,hard,17,4,3,1,medicare_tax_inconsistent,0.7549,0.06,True,review_cross_field_failure
+w2_2026_000057_scan_mild_01,w2_2026_000057,w2,test,mild,17,4,1,1,social_security_tax_inconsistent,0.8015,0.2566,True,review_cross_field_failure
+w2_2026_000043_scan_hard_02,w2_2026_000043,w2,test,hard,17,3,3,1,social_security_tax_inconsistent,0.7721,0.06,True,review_cross_field_failure
+w2_2026_000062_scan_mild_01,w2_2026_000062,w2,test,mild,17,5,3,1,medicare_tax_inconsistent,0.7565,0.156,True,review_cross_field_failure
+w2_2026_000057_scan_hard_02,w2_2026_000057,w2,test,hard,17,6,2,2,social_security_tax_inconsistent; federal_tax_exceeds_wages,0.7476,0.2707,True,review_cross_field_failure
+w2_2026_000062_scan_hard_02,w2_2026_000062,w2,test,hard,17,5,3,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.7085,0.01,True,review_cross_field_failure
+w2_2026_000066_scan_mild_01,w2_2026_000066,w2,test,mild,17,2,1,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.81,0.2258,True,review_cross_field_failure
+w2_2026_000069_scan_mild_01,w2_2026_000069,w2,test,mild,17,5,2,2,social_security_tax_inconsistent; federal_tax_exceeds_wages,0.7772,0.2041,True,review_cross_field_failure
+w2_2026_000093_scan_mild_01,w2_2026_000093,w2,test,mild,17,5,2,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.7943,0.2501,True,review_cross_field_failure
+w2_2026_000066_scan_hard_02,w2_2026_000066,w2,test,hard,17,6,4,2,social_security_tax_inconsistent; federal_tax_exceeds_wages,0.6622,0.17,True,review_cross_field_failure
+w2_2026_000069_scan_hard_02,w2_2026_000069,w2,test,hard,17,4,2,3,social_security_tax_inconsistent; medicare_tax_inconsistent; federal_tax_exceeds_wages,0.7713,0.255,True,review_cross_field_failure
+w2_2026_000116_scan_mild_01,w2_2026_000116,w2,test,mild,17,4,4,1,social_security_tax_inconsistent,0.7504,0.2127,True,review_cross_field_failure
+w2_2026_000120_scan_mild_01,w2_2026_000120,w2,test,mild,17,3,1,1,social_security_tax_inconsistent,0.8333,0.303,True,review_cross_field_failure
+w2_2026_000093_scan_hard_02,w2_2026_000093,w2,test,hard,17,4,3,1,social_security_tax_inconsistent,0.7081,0.0,True,review_cross_field_failure
+w2_2026_000116_scan_hard_02,w2_2026_000116,w2,test,hard,17,2,2,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.8194,0.12,True,review_cross_field_failure
+w2_2026_000121_scan_hard_02,w2_2026_000121,w2,test,hard,17,5,3,3,social_security_tax_inconsistent; medicare_tax_inconsistent; federal_tax_exceeds_wages,0.7289,0.12,True,review_cross_field_failure
+w2_2026_000123_scan_mild_01,w2_2026_000123,w2,test,mild,17,5,3,3,social_security_tax_inconsistent; medicare_tax_inconsistent; federal_tax_exceeds_wages,0.7403,0.12,True,review_cross_field_failure
+w2_2026_000121_scan_mild_01,w2_2026_000121,w2,test,mild,17,7,3,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.7306,0.0,True,review_cross_field_failure
+w2_2026_000120_scan_hard_02,w2_2026_000120,w2,test,hard,17,5,4,3,social_security_tax_inconsistent; medicare_tax_inconsistent; federal_tax_exceeds_wages,0.6932,0.062,True,review_cross_field_failure
+w2_2026_000133_scan_mild_01,w2_2026_000133,w2,test,mild,17,4,3,1,social_security_tax_inconsistent,0.8039,0.12,True,review_cross_field_failure
+w2_2026_000123_scan_hard_02,w2_2026_000123,w2,test,hard,17,3,3,0,,0.7966,0.264,True,review_required_field_failure
+w2_2026_000132_scan_mild_01,w2_2026_000132,w2,test,mild,17,5,3,1,medicare_tax_inconsistent,0.7341,0.122,True,review_cross_field_failure
+w2_2026_000132_scan_hard_02,w2_2026_000132,w2,test,hard,17,4,3,3,social_security_tax_inconsistent; medicare_tax_inconsistent; federal_tax_exceeds_wages,0.7145,0.2622,True,review_cross_field_failure
+w2_2026_000134_scan_mild_01,w2_2026_000134,w2,test,mild,17,3,2,1,federal_tax_exceeds_wages,0.7893,0.2193,True,review_cross_field_failure
+w2_2026_000147_scan_mild_01,w2_2026_000147,w2,test,mild,17,4,3,3,social_security_tax_inconsistent; medicare_tax_inconsistent; federal_tax_exceeds_wages,0.7821,0.12,True,review_cross_field_failure
+w2_2026_000134_scan_hard_02,w2_2026_000134,w2,test,hard,17,4,3,3,social_security_tax_inconsistent; medicare_tax_inconsistent; federal_tax_exceeds_wages,0.7334,0.2566,True,review_cross_field_failure
+w2_2026_000133_scan_hard_02,w2_2026_000133,w2,test,hard,17,7,3,3,social_security_tax_inconsistent; medicare_tax_inconsistent; federal_tax_exceeds_wages,0.6999,0.257,True,review_cross_field_failure
+w2_2026_000174_scan_mild_01,w2_2026_000174,w2,test,mild,17,4,1,3,social_security_tax_inconsistent; medicare_tax_inconsistent; federal_tax_exceeds_wages,0.8317,0.5566,True,review_cross_field_failure
+w2_2026_000174_scan_hard_02,w2_2026_000174,w2,test,hard,17,8,3,2,medicare_tax_inconsistent; federal_tax_exceeds_wages,0.6926,0.1728,True,review_cross_field_failure
+w2_2026_000147_scan_hard_02,w2_2026_000147,w2,test,hard,17,6,5,3,social_security_tax_inconsistent; medicare_tax_inconsistent; federal_tax_exceeds_wages,0.6609,0.0,True,review_cross_field_failure
+w2_2026_000186_scan_mild_01,w2_2026_000186,w2,test,mild,17,6,3,0,,0.7598,0.196,True,review_required_field_failure
+w2_2026_000186_scan_hard_02,w2_2026_000186,w2,test,hard,17,6,4,3,social_security_tax_inconsistent; medicare_tax_inconsistent; federal_tax_exceeds_wages,0.6543,0.122,True,review_cross_field_failure
+w2_2026_000199_scan_mild_01,w2_2026_000199,w2,test,mild,17,6,4,3,social_security_tax_inconsistent; medicare_tax_inconsistent; federal_tax_exceeds_wages,0.6992,0.12,True,review_cross_field_failure
+w2_2026_000199_scan_hard_02,w2_2026_000199,w2,test,hard,17,5,3,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.7223,0.12,True,review_cross_field_failure
+w2_2026_000220_scan_mild_01,w2_2026_000220,w2,test,mild,17,6,3,2,social_security_tax_inconsistent; federal_tax_exceeds_wages,0.7294,0.2067,True,review_cross_field_failure
+w2_2026_000244_scan_mild_01,w2_2026_000244,w2,test,mild,17,5,3,1,social_security_tax_inconsistent,0.7188,0.12,True,review_cross_field_failure
+w2_2026_000220_scan_hard_02,w2_2026_000220,w2,test,hard,17,3,2,1,social_security_tax_inconsistent,0.8213,0.518,True,review_cross_field_failure
+w2_2026_000247_scan_mild_01,w2_2026_000247,w2,test,mild,17,7,3,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.7,0.1675,True,review_cross_field_failure
+w2_2026_000244_scan_hard_02,w2_2026_000244,w2,test,hard,17,6,3,2,social_security_tax_inconsistent; medicare_tax_inconsistent,0.7041,0.12,True,review_cross_field_failure
+1099_nec_2026_000004_scan_mild_01,1099_nec_2026_000004,1099_nec,test,mild,18,3,1,0,,0.8419,0.2883,True,review_required_field_failure
+w2_2026_000247_scan_hard_02,w2_2026_000247,w2,test,hard,17,4,2,3,social_security_tax_inconsistent; medicare_tax_inconsistent; federal_tax_exceeds_wages,0.7955,0.2849,True,review_cross_field_failure
+1099_nec_2026_000007_scan_mild_01,1099_nec_2026_000007,1099_nec,test,mild,18,4,2,1,federal_tax_exceeds_compensation,0.792,0.2836,True,review_cross_field_failure
+1099_nec_2026_000004_scan_hard_02,1099_nec_2026_000004,1099_nec,test,hard,18,4,2,0,,0.7939,0.27,True,review_required_field_failure
+1099_nec_2026_000007_scan_hard_02,1099_nec_2026_000007,1099_nec,test,hard,18,4,2,1,federal_tax_exceeds_compensation,0.7752,0.21,True,review_cross_field_failure
+1099_nec_2026_000029_scan_hard_02,1099_nec_2026_000029,1099_nec,test,hard,18,4,2,0,,0.7904,0.188,True,review_required_field_failure
+1099_nec_2026_000029_scan_mild_01,1099_nec_2026_000029,1099_nec,test,mild,18,5,3,1,federal_tax_exceeds_compensation,0.735,0.24,True,review_cross_field_failure
+1099_nec_2026_000047_scan_mild_01,1099_nec_2026_000047,1099_nec,test,mild,18,5,2,1,federal_tax_exceeds_compensation,0.7659,0.191,True,review_cross_field_failure
+1099_nec_2026_000049_scan_mild_01,1099_nec_2026_000049,1099_nec,test,mild,18,5,2,0,,0.7982,0.2907,True,review_required_field_failure
+1099_nec_2026_000049_scan_hard_02,1099_nec_2026_000049,1099_nec,test,hard,18,4,2,0,,0.8056,0.2929,True,review_required_field_failure
+1099_nec_2026_000047_scan_hard_02,1099_nec_2026_000047,1099_nec,test,hard,18,5,3,1,state_tax_exceeds_state_income,0.7857,0.23,True,review_cross_field_failure
+1099_nec_2026_000075_scan_mild_01,1099_nec_2026_000075,1099_nec,test,mild,18,3,0,1,state_tax_exceeds_state_income,0.8646,0.2928,True,review_cross_field_failure
+1099_nec_2026_000082_scan_mild_01,1099_nec_2026_000082,1099_nec,test,mild,18,6,2,0,,0.7713,0.1806,True,review_required_field_failure
+1099_nec_2026_000095_scan_mild_01,1099_nec_2026_000095,1099_nec,test,mild,18,3,1,0,,0.8443,0.316,True,review_required_field_failure
+1099_nec_2026_000075_scan_hard_02,1099_nec_2026_000075,1099_nec,test,hard,18,6,3,0,,0.7616,0.254,True,review_required_field_failure
+1099_nec_2026_000082_scan_hard_02,1099_nec_2026_000082,1099_nec,test,hard,18,4,2,0,,0.764,0.148,True,review_required_field_failure
+1099_nec_2026_000104_scan_mild_01,1099_nec_2026_000104,1099_nec,test,mild,18,4,2,0,,0.7913,0.24,True,review_required_field_failure
+1099_nec_2026_000107_scan_mild_01,1099_nec_2026_000107,1099_nec,test,mild,18,3,1,1,federal_tax_exceeds_compensation,0.8446,0.2445,True,review_cross_field_failure
+1099_nec_2026_000095_scan_hard_02,1099_nec_2026_000095,1099_nec,test,hard,18,8,4,0,,0.6421,0.0,True,review_required_field_failure
+1099_nec_2026_000104_scan_hard_02,1099_nec_2026_000104,1099_nec,test,hard,18,5,2,0,,0.8231,0.2832,True,review_required_field_failure
+1099_nec_2026_000107_scan_hard_02,1099_nec_2026_000107,1099_nec,test,hard,18,4,1,0,,0.7852,0.132,True,review_required_field_failure
+1099_nec_2026_000126_scan_mild_01,1099_nec_2026_000126,1099_nec,test,mild,18,6,1,0,,0.7813,0.168,True,review_required_field_failure
+1099_nec_2026_000141_scan_mild_01,1099_nec_2026_000141,1099_nec,test,mild,18,5,2,0,,0.7618,0.12,True,review_required_field_failure
+1099_nec_2026_000126_scan_hard_02,1099_nec_2026_000126,1099_nec,test,hard,18,6,2,0,,0.7489,0.124,True,review_required_field_failure
+1099_nec_2026_000144_scan_mild_01,1099_nec_2026_000144,1099_nec,test,mild,18,4,2,0,,0.8511,0.3269,True,review_required_field_failure
+1099_nec_2026_000141_scan_hard_02,1099_nec_2026_000141,1099_nec,test,hard,18,5,2,1,federal_tax_exceeds_compensation,0.7798,0.23,True,review_cross_field_failure
+1099_nec_2026_000145_scan_mild_01,1099_nec_2026_000145,1099_nec,test,mild,18,4,2,0,,0.802,0.182,True,review_required_field_failure
+1099_nec_2026_000144_scan_hard_02,1099_nec_2026_000144,1099_nec,test,hard,18,5,2,1,state_tax_exceeds_state_income,0.7478,0.266,True,review_cross_field_failure
+1099_nec_2026_000157_scan_mild_01,1099_nec_2026_000157,1099_nec,test,mild,18,5,2,1,federal_tax_exceeds_compensation,0.7803,0.12,True,review_cross_field_failure
+1099_nec_2026_000145_scan_hard_02,1099_nec_2026_000145,1099_nec,test,hard,18,7,4,0,,0.7709,0.2907,True,review_required_field_failure
+1099_nec_2026_000172_scan_mild_01,1099_nec_2026_000172,1099_nec,test,mild,18,4,2,0,,0.8323,0.2928,True,review_required_field_failure
+1099_nec_2026_000157_scan_hard_02,1099_nec_2026_000157,1099_nec,test,hard,18,6,3,0,,0.7091,0.0,True,review_required_field_failure
+1099_nec_2026_000172_scan_hard_02,1099_nec_2026_000172,1099_nec,test,hard,18,5,2,0,,0.754,0.12,True,review_required_field_failure
+1099_nec_2026_000186_scan_hard_02,1099_nec_2026_000186,1099_nec,test,hard,18,3,1,1,state_tax_exceeds_state_income,0.8349,0.192,True,review_cross_field_failure
+1099_nec_2026_000186_scan_mild_01,1099_nec_2026_000186,1099_nec,test,mild,18,4,2,1,state_tax_exceeds_state_income,0.8026,0.168,True,review_cross_field_failure
+1099_nec_2026_000193_scan_mild_01,1099_nec_2026_000193,1099_nec,test,mild,18,6,3,0,,0.743,0.196,True,review_required_field_failure
+1099_nec_2026_000200_scan_mild_01,1099_nec_2026_000200,1099_nec,test,mild,18,4,1,0,,0.8495,0.244,True,review_required_field_failure
+1099_nec_2026_000193_scan_hard_02,1099_nec_2026_000193,1099_nec,test,hard,18,7,3,0,,0.7348,0.3072,True,review_required_field_failure
+1099_nec_2026_000200_scan_hard_02,1099_nec_2026_000200,1099_nec,test,hard,18,5,3,0,,0.7671,0.22,True,review_required_field_failure
+1099_nec_2026_000204_scan_mild_01,1099_nec_2026_000204,1099_nec,test,mild,18,5,2,1,federal_tax_exceeds_compensation,0.7902,0.2871,True,review_cross_field_failure
+1099_nec_2026_000207_scan_mild_01,1099_nec_2026_000207,1099_nec,test,mild,18,5,1,0,,0.8073,0.2908,True,review_required_field_failure
+1099_nec_2026_000204_scan_hard_02,1099_nec_2026_000204,1099_nec,test,hard,18,6,3,0,,0.7229,0.254,True,review_required_field_failure
+1099_nec_2026_000212_scan_mild_01,1099_nec_2026_000212,1099_nec,test,mild,18,5,1,0,,0.7956,0.1793,True,review_required_field_failure
+1099_nec_2026_000207_scan_hard_02,1099_nec_2026_000207,1099_nec,test,hard,18,4,2,1,state_tax_exceeds_state_income,0.7872,0.168,True,review_cross_field_failure
+1099_nec_2026_000220_scan_mild_01,1099_nec_2026_000220,1099_nec,test,mild,18,5,2,0,,0.8094,0.2843,True,review_required_field_failure
+1099_nec_2026_000212_scan_hard_02,1099_nec_2026_000212,1099_nec,test,hard,18,5,2,0,,0.7462,0.2512,True,review_required_field_failure
+1099_nec_2026_000220_scan_hard_02,1099_nec_2026_000220,1099_nec,test,hard,18,5,3,0,,0.7626,0.27,True,review_required_field_failure
+1099_nec_2026_000229_scan_mild_01,1099_nec_2026_000229,1099_nec,test,mild,18,5,2,0,,0.7679,0.21,True,review_required_field_failure
+1099_nec_2026_000230_scan_mild_01,1099_nec_2026_000230,1099_nec,test,mild,18,4,2,0,,0.8091,0.2107,True,review_required_field_failure
+1099_nec_2026_000229_scan_hard_02,1099_nec_2026_000229,1099_nec,test,hard,18,3,2,0,,0.8488,0.332,True,review_required_field_failure
+1099_nec_2026_000230_scan_hard_02,1099_nec_2026_000230,1099_nec,test,hard,18,5,3,0,,0.7857,0.3091,True,review_required_field_failure
+1099_nec_2026_000236_scan_mild_01,1099_nec_2026_000236,1099_nec,test,mild,18,4,1,0,,0.7844,0.238,True,review_required_field_failure
+1099_nec_2026_000245_scan_mild_01,1099_nec_2026_000245,1099_nec,test,mild,18,6,2,1,federal_tax_exceeds_compensation,0.807,0.2928,True,review_cross_field_failure
+1099_nec_2026_000236_scan_hard_02,1099_nec_2026_000236,1099_nec,test,hard,18,6,4,0,,0.6852,0.0,True,review_required_field_failure
+1099_nec_2026_000245_scan_hard_02,1099_nec_2026_000245,1099_nec,test,hard,18,6,3,1,federal_tax_exceeds_compensation,0.6918,0.032,True,review_cross_field_failure

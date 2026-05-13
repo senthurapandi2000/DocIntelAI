@@ -1,0 +1,53 @@
+{
+  "split": "test",
+  "documents_evaluated": 159,
+  "field_predictions": 2784,
+  "max_documents_per_quality": 0,
+  "workers": 4,
+  "overall": {
+    "field_predictions": 2784,
+    "exact_match_rate": 0.4256,
+    "mean_similarity": 68.67,
+    "mean_ocr_confidence": 43.01,
+    "failed_fields": 0
+  },
+  "by_quality": {
+    "clean": {
+      "field_predictions": 928,
+      "exact_match_rate": 0.6196,
+      "mean_similarity": 87.38,
+      "mean_ocr_confidence": 54.01,
+      "failed_fields": 0
+    },
+    "hard": {
+      "field_predictions": 928,
+      "exact_match_rate": 0.2188,
+      "mean_similarity": 47.32,
+      "mean_ocr_confidence": 29.73,
+      "failed_fields": 0
+    },
+    "mild": {
+      "field_predictions": 928,
+      "exact_match_rate": 0.4386,
+      "mean_similarity": 71.31,
+      "mean_ocr_confidence": 45.28,
+      "failed_fields": 0
+    }
+  },
+  "by_document_type": {
+    "1099_nec": {
+      "field_predictions": 1458,
+      "exact_match_rate": 0.4726,
+      "mean_similarity": 67.3,
+      "mean_ocr_confidence": 46.17,
+      "failed_fields": 0
+    },
+    "w2": {
+      "field_predictions": 1326,
+      "exact_match_rate": 0.3741,
+      "mean_similarity": 70.18,
+      "mean_ocr_confidence": 39.54,
+      "failed_fields": 0
+    }
+  }
+}

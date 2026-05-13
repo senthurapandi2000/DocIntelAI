@@ -1,0 +1,36 @@
+{
+  "predictions_file": "reports\\irs_tesseract_hybrid_predictions.csv",
+  "field_predictions": 4263,
+  "documents": 243,
+  "overall_exact_match_rate": 0.4443,
+  "overall_mean_similarity": 74.17,
+  "overall_empty_prediction_rate": 0.0239,
+  "by_quality": {
+    "clean": {
+      "field_predictions": 1421,
+      "exact_match_rate": 0.6312,
+      "mean_similarity": 89.77,
+      "empty_prediction_rate": 0.0014
+    },
+    "hard": {
+      "field_predictions": 1421,
+      "exact_match_rate": 0.2048,
+      "mean_similarity": 53.83,
+      "empty_prediction_rate": 0.0626
+    },
+    "mild": {
+      "field_predictions": 1421,
+      "exact_match_rate": 0.4968,
+      "mean_similarity": 78.93,
+      "empty_prediction_rate": 0.0077
+    }
+  },
+  "error_category_counts": {
+    "exact_match": 1894,
+    "incorrect_below_50": 767,
+    "weak_match_50_74": 677,
+    "partial_match_75_89": 594,
+    "near_match_90_plus": 229,
+    "empty_prediction": 102
+  }
+}

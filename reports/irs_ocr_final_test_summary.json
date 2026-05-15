@@ -1,0 +1,97 @@
+{
+  "split": "test",
+  "documents_evaluated": 159,
+  "field_predictions": 2784,
+  "fallback_fields": 1805,
+  "trocr_selected_fields": 710,
+  "trocr_selection_rate_overall": 0.255,
+  "trocr_selection_rate_on_fallback": 0.3934,
+  "router_threshold": 0.56,
+  "confidence_threshold": 70.0,
+  "tesseract_hybrid": {
+    "field_predictions": 2784,
+    "exact_match_rate": 0.444,
+    "mean_similarity": 75.38
+  },
+  "final_router": {
+    "field_predictions": 2784,
+    "exact_match_rate": 0.4968,
+    "mean_similarity": 81.28
+  },
+  "fallback_only": {
+    "tesseract": {
+      "field_predictions": 1805,
+      "exact_match_rate": 0.2803,
+      "mean_similarity": 65.83
+    },
+    "final_router": {
+      "field_predictions": 1805,
+      "exact_match_rate": 0.3618,
+      "mean_similarity": 74.94
+    }
+  },
+  "by_quality": {
+    "clean": {
+      "tesseract": {
+        "field_predictions": 928,
+        "exact_match_rate": 0.6067,
+        "mean_similarity": 89.5
+      },
+      "final_router": {
+        "field_predictions": 928,
+        "exact_match_rate": 0.6401,
+        "mean_similarity": 90.58
+      }
+    },
+    "hard": {
+      "tesseract": {
+        "field_predictions": 928,
+        "exact_match_rate": 0.2349,
+        "mean_similarity": 58.71
+      },
+      "final_router": {
+        "field_predictions": 928,
+        "exact_match_rate": 0.305,
+        "mean_similarity": 70.31
+      }
+    },
+    "mild": {
+      "tesseract": {
+        "field_predictions": 928,
+        "exact_match_rate": 0.4903,
+        "mean_similarity": 77.93
+      },
+      "final_router": {
+        "field_predictions": 928,
+        "exact_match_rate": 0.5453,
+        "mean_similarity": 82.96
+      }
+    }
+  },
+  "by_document_type": {
+    "1099_nec": {
+      "tesseract": {
+        "field_predictions": 1458,
+        "exact_match_rate": 0.5267,
+        "mean_similarity": 76.97
+      },
+      "final_router": {
+        "field_predictions": 1458,
+        "exact_match_rate": 0.5981,
+        "mean_similarity": 82.41
+      }
+    },
+    "w2": {
+      "tesseract": {
+        "field_predictions": 1326,
+        "exact_match_rate": 0.3529,
+        "mean_similarity": 73.64
+      },
+      "final_router": {
+        "field_predictions": 1326,
+        "exact_match_rate": 0.3854,
+        "mean_similarity": 80.04
+      }
+    }
+  }
+}

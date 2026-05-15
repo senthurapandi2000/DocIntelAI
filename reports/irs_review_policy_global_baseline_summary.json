@@ -1,0 +1,25 @@
+{
+  "calibration_source": "parent-held-out validation documents",
+  "hybrid_validation_path": "reports\\irs_tesseract_hybrid_validation_predictions.csv",
+  "router_holdout_path": "reports\\irs_ocr_router_holdout_predictions.csv",
+  "documents": 63,
+  "parent_documents": 21,
+  "fields": 1110,
+  "target_auto_accept_accuracy": 0.9,
+  "selected_threshold": 0.95,
+  "selected_policy": {
+    "threshold": 0.95,
+    "fields": 1110,
+    "fields_auto_accepted": 347,
+    "fields_reviewed": 763,
+    "field_review_rate": 0.6874,
+    "auto_accept_coverage": 0.3126,
+    "auto_accepted_exact_match_rate": 0.879,
+    "incorrect_field_capture_rate": 0.9227,
+    "incorrect_fields_auto_accepted": 42
+  },
+  "document_status_counts": {
+    "full_review": 62,
+    "required_fields_review": 1
+  }
+}

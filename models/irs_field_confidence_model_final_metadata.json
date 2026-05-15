@@ -1,0 +1,50 @@
+{
+  "model_type": "LogisticRegression field correctness model",
+  "training_source": "parent-held-out validation OCR outputs",
+  "rows": 1110,
+  "parent_documents": 21,
+  "regularization_c": 3.0,
+  "risk_thresholds": {
+    "critical": 0.98,
+    "structured": 0.8,
+    "descriptive": 0.31
+  },
+  "risk_targets": {
+    "critical": 0.97,
+    "structured": 0.92,
+    "descriptive": 0.85
+  },
+  "target_met": {
+    "critical": false,
+    "structured": true,
+    "descriptive": true
+  },
+  "categorical_features": [
+    "document_type",
+    "field_name",
+    "final_engine",
+    "risk_tier",
+    "format_message"
+  ],
+  "numeric_features": [
+    "required_field",
+    "format_valid",
+    "format_score",
+    "model_confidence",
+    "ocr_confidence",
+    "router_probability",
+    "prediction_length",
+    "digit_ratio",
+    "alpha_ratio",
+    "punctuation_ratio",
+    "has_trocr_candidate",
+    "tesseract_trocr_agreement",
+    "cross_field_flag"
+  ],
+  "excluded_from_features": [
+    "ground-truth value",
+    "ground-truth similarity",
+    "test-set labels",
+    "synthetic quality label"
+  ]
+}

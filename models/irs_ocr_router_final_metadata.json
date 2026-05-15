@@ -1,0 +1,37 @@
+{
+  "model_type": "LogisticRegression OCR router",
+  "training_source": "reports\\irs_trocr_fallback_benchmark_predictions.csv",
+  "training_rows": 2755,
+  "parent_documents": 81,
+  "regularization_c": 10.0,
+  "decision_threshold": 0.56,
+  "categorical_features": [
+    "document_type",
+    "field_name"
+  ],
+  "numeric_features": [
+    "tesseract_confidence",
+    "tesseract_length",
+    "trocr_length",
+    "length_difference",
+    "tesseract_format_score",
+    "trocr_format_score",
+    "model_agreement_similarity",
+    "tesseract_digit_ratio",
+    "tesseract_alpha_ratio",
+    "tesseract_punctuation_ratio",
+    "trocr_digit_ratio",
+    "trocr_alpha_ratio",
+    "trocr_punctuation_ratio",
+    "tesseract_empty",
+    "trocr_empty",
+    "same_normalized_output"
+  ],
+  "target_definition": "Choose TrOCR when it uniquely achieves exact match, or when neither engine is exact and TrOCR similarity exceeds Tesseract by at least 3 points.",
+  "excluded_from_features": [
+    "ground truth",
+    "exact-match labels",
+    "similarity-to-ground-truth",
+    "synthetic quality label"
+  ]
+}

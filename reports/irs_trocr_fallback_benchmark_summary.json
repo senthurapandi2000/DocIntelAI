@@ -1,0 +1,77 @@
+{
+  "model_name": "microsoft/trocr-base-printed",
+  "device": "cuda",
+  "validation_fields_selected": 2755,
+  "confidence_threshold": 70.0,
+  "batch_size": 8,
+  "num_beams": 2,
+  "tesseract": {
+    "field_predictions": 2755,
+    "exact_match_rate": 0.2744,
+    "mean_similarity": 63.75
+  },
+  "trocr": {
+    "field_predictions": 2755,
+    "exact_match_rate": 0.192,
+    "mean_similarity": 57.7
+  },
+  "oracle": {
+    "field_predictions": 2755,
+    "exact_match_rate": 0.3917,
+    "mean_similarity": 76.51
+  },
+  "trocr_better_similarity_rate": 0.371,
+  "by_quality": {
+    "clean": {
+      "tesseract": {
+        "field_predictions": 796,
+        "exact_match_rate": 0.4472,
+        "mean_similarity": 84.17
+      },
+      "trocr": {
+        "field_predictions": 796,
+        "exact_match_rate": 0.191,
+        "mean_similarity": 60.3
+      },
+      "oracle": {
+        "field_predictions": 796,
+        "exact_match_rate": 0.5302,
+        "mean_similarity": 88.2
+      }
+    },
+    "hard": {
+      "tesseract": {
+        "field_predictions": 1099,
+        "exact_match_rate": 0.1083,
+        "mean_similarity": 44.7
+      },
+      "trocr": {
+        "field_predictions": 1099,
+        "exact_match_rate": 0.1601,
+        "mean_similarity": 53.66
+      },
+      "oracle": {
+        "field_predictions": 1099,
+        "exact_match_rate": 0.2293,
+        "mean_similarity": 64.72
+      }
+    },
+    "mild": {
+      "tesseract": {
+        "field_predictions": 860,
+        "exact_match_rate": 0.3267,
+        "mean_similarity": 69.2
+      },
+      "trocr": {
+        "field_predictions": 860,
+        "exact_match_rate": 0.2337,
+        "mean_similarity": 60.45
+      },
+      "oracle": {
+        "field_predictions": 860,
+        "exact_match_rate": 0.4709,
+        "mean_similarity": 80.74
+      }
+    }
+  }
+}

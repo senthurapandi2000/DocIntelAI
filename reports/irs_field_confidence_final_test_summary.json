@@ -1,0 +1,111 @@
+{
+  "evaluation_split": "test",
+  "predictions_path": "reports\\irs_ocr_final_test_predictions.csv",
+  "model_path": "models\\irs_field_confidence_model.joblib",
+  "risk_thresholds": {
+    "critical": 0.98,
+    "structured": 0.8,
+    "descriptive": 0.31
+  },
+  "documents": 159,
+  "parent_documents": 53,
+  "overall": {
+    "fields": 2784,
+    "fields_auto_accepted": 767,
+    "fields_reviewed": 2017,
+    "field_review_rate": 0.7245,
+    "auto_accept_coverage": 0.2755,
+    "auto_accepted_exact_match_rate": 0.8631,
+    "incorrect_field_capture_rate": 0.9251,
+    "incorrect_fields_auto_accepted": 105
+  },
+  "by_risk_tier": {
+    "critical": {
+      "fields": 1266,
+      "fields_auto_accepted": 33,
+      "fields_reviewed": 1233,
+      "field_review_rate": 0.9739,
+      "auto_accept_coverage": 0.0261,
+      "auto_accepted_exact_match_rate": 0.9697,
+      "incorrect_field_capture_rate": 0.9983,
+      "incorrect_fields_auto_accepted": 1
+    },
+    "descriptive": {
+      "fields": 798,
+      "fields_auto_accepted": 589,
+      "fields_reviewed": 209,
+      "field_review_rate": 0.2619,
+      "auto_accept_coverage": 0.7381,
+      "auto_accepted_exact_match_rate": 0.8455,
+      "incorrect_field_capture_rate": 0.6905,
+      "incorrect_fields_auto_accepted": 91
+    },
+    "structured": {
+      "fields": 720,
+      "fields_auto_accepted": 145,
+      "fields_reviewed": 575,
+      "field_review_rate": 0.7986,
+      "auto_accept_coverage": 0.2014,
+      "auto_accepted_exact_match_rate": 0.9103,
+      "incorrect_field_capture_rate": 0.9744,
+      "incorrect_fields_auto_accepted": 13
+    }
+  },
+  "by_quality": {
+    "clean": {
+      "fields": 928,
+      "fields_auto_accepted": 325,
+      "fields_reviewed": 603,
+      "field_review_rate": 0.6498,
+      "auto_accept_coverage": 0.3502,
+      "auto_accepted_exact_match_rate": 0.9508,
+      "incorrect_field_capture_rate": 0.9521,
+      "incorrect_fields_auto_accepted": 16
+    },
+    "hard": {
+      "fields": 928,
+      "fields_auto_accepted": 174,
+      "fields_reviewed": 754,
+      "field_review_rate": 0.8125,
+      "auto_accept_coverage": 0.1875,
+      "auto_accepted_exact_match_rate": 0.6437,
+      "incorrect_field_capture_rate": 0.9039,
+      "incorrect_fields_auto_accepted": 62
+    },
+    "mild": {
+      "fields": 928,
+      "fields_auto_accepted": 268,
+      "fields_reviewed": 660,
+      "field_review_rate": 0.7112,
+      "auto_accept_coverage": 0.2888,
+      "auto_accepted_exact_match_rate": 0.8993,
+      "incorrect_field_capture_rate": 0.936,
+      "incorrect_fields_auto_accepted": 27
+    }
+  },
+  "by_document_type": {
+    "1099_nec": {
+      "fields": 1458,
+      "fields_auto_accepted": 549,
+      "fields_reviewed": 909,
+      "field_review_rate": 0.6235,
+      "auto_accept_coverage": 0.3765,
+      "auto_accepted_exact_match_rate": 0.8488,
+      "incorrect_field_capture_rate": 0.8584,
+      "incorrect_fields_auto_accepted": 83
+    },
+    "w2": {
+      "fields": 1326,
+      "fields_auto_accepted": 218,
+      "fields_reviewed": 1108,
+      "field_review_rate": 0.8356,
+      "auto_accept_coverage": 0.1644,
+      "auto_accepted_exact_match_rate": 0.8991,
+      "incorrect_field_capture_rate": 0.973,
+      "incorrect_fields_auto_accepted": 22
+    }
+  },
+  "document_status_counts": {
+    "critical_review": 159
+  }
+}

@@ -1,0 +1,121 @@
+document_id,document_type,quality,field_name,expected_value,normalized_expected,tesseract_prediction,tesseract_normalized,tesseract_confidence,tesseract_exact_match,tesseract_similarity,trocr_prediction,trocr_normalized,trocr_exact_match,trocr_similarity,trocr_better_similarity,oracle_exact_match,oracle_similarity
+1099_nec_2026_000183,1099_nec,clean,recipient_zip,89030,89030,89030 Sa eR YR Se ee Oe,89030550,34.86,False,76.92,89030 TORSIGN POSTAL CODE |,890300516051001,False,50.0,False,False,76.92
+1099_nec_2026_000243,1099_nec,clean,recipient_city,CHERYLSTAD,CHERYLSTAD,CHERYLSTAD,CHERYLSTAD,92.0,True,100.0,CHERYSTAD - 1,CHERYSTAD 1,False,85.71,False,True,100.0
+w2_2026_000041,w2,clean,state_wages,"49,412.39",49412.39,"49,412.39",49412.39,55.0,True,100.0,"........ 49,412.39",0.49,False,33.33,False,True,100.0
+1099_nec_2026_000055,1099_nec,clean,nonemployee_compensation,"136,675.89",136675.89,"$ 136,675.89",136675.89,49.5,True,100.0,"SR: 136,675.99",5136675.99,False,84.21,False,True,100.0
+w2_2026_000019,w2,clean,employer_ein,00-9519948,009519948,00-9519948,009519948,0.0,True,100.0,00-53/1968 TERMINAL NAME (RM),0053196811,False,63.16,False,True,100.0
+1099_nec_2026_000227,1099_nec,clean,payer_state,IL,IL,L S,LS,18.0,False,50.0,PLEASE OF PROVINCE,PLEASEOFPROVINCE,False,11.11,False,False,50.0
+w2_2026_000214,w2,clean,employer_state_id,NM-3799805,NM3799805,NM37980500,NM37980500,0.0,False,84.21,INM-3799805 .................................,INM3799805,False,94.74,True,False,94.74
+1099_nec_2026_000169,1099_nec,clean,recipient_zip,45452,45452,45452 Sa eR YR Se ee Oe,45452550,34.86,False,76.92,45452 TORSIGN POSTAL CODE |,454520516051001,False,50.0,False,False,76.92
+1099_nec_2026_000138,1099_nec,clean,payer_zip,12451,12451,12451,12451,67.0,True,100.0,12451 TORSIGN POSTAL CODE,12451051605100,False,52.63,False,True,100.0
+1099_nec_2026_000127,1099_nec,clean,nonemployee_compensation,"72,179.72",72179.72,"$ 72,179.72",72179.72,54.5,True,100.0,"SR: 72,17972",57217972.00,False,73.68,False,True,100.0
+w2_2026_000019,w2,clean,employee_ssn,000-30-1931,000301931,00-30-1931 BE,003019318,9.5,False,88.89,000-30-1931 - SUSTAR SECURITY INCLUER,000301931555111,False,75.0,False,False,88.89
+w2_2026_000155,w2,clean,wages,"118,792.16",118792.16,"448,792.16",448792.16,54.0,False,77.78,"* WAYES, UPS, UNIER NOT 118,792.16",5510118792.16,False,81.82,True,False,81.82
+1099_nec_2026_000135,1099_nec,clean,nonemployee_compensation,"83,685.40",83685.40,"$ 83,685.40",83685.40,51.5,True,100.0,SR: 03:65:40,5036540.00,False,55.56,False,True,100.0
+w2_2026_000019,w2,clean,control_number,W2-2026-000019,W22026000019,22028-00019,2202800019,30.0,False,81.82,"WE AREBOOKS SOLD9"" ********",WEAREBOOKSSOLD9,False,14.81,False,False,81.82
+w2_2026_000166,w2,clean,state_wages,"30,721.24",30721.24,"80,721.24",80721.24,62.0,False,87.5,........30.721.24,0.31,False,33.33,False,False,87.5
+w2_2026_000243,w2,clean,state_wages,"97,455.43",97455.43,"97,455.43",97455.43,59.0,True,100.0,"........ 97,455.43",0.97,False,33.33,False,True,100.0
+w2_2026_000140,w2,clean,state_income_tax,"5,123.60",5123.60,5128.60),5128.60,53.0,False,85.71,"................ 5,123.60",0.51,False,36.36,False,False,85.71
+1099_nec_2026_000135,1099_nec,clean,payer_state,ME,ME,ME,ME,53.0,True,100.0,PLEASE OR PROVINCE,PLEASEORPROVINCE,False,11.11,False,True,100.0
+1099_nec_2026_000211,1099_nec,clean,recipient_state,MS,MS,WS,WS,67.0,False,50.0,MASITE OR PROVINICE,MASITEORPROVINICE,False,21.05,False,False,50.0
+1099_nec_2026_000060,1099_nec,clean,state_payer_number,GU-9170024,GU9170024,G7004,G7004,0.0,False,71.43,GU-9170024,GU9170024,True,100.0,True,True,100.0
+w2_2026_000237,w2,clean,state_wages,"36,077.80",36077.80,"36,077.80",36077.80,48.0,True,100.0,"................36,077.80",0.36,False,33.33,False,True,100.0
+1099_nec_2026_000055,1099_nec,clean,state_tax_withheld,0.00,0.00,$0.00,0.00,57.0,True,100.0,$ ------------ 0.00,------------0.00,False,40.0,False,True,100.0
+1099_nec_2026_000127,1099_nec,clean,payer_zip,08795,08795,08795,08795,40.0,True,100.0,08795 TORSIGN POSTAL CODE,08795051605100,False,52.63,False,True,100.0
+1099_nec_2026_000195,1099_nec,clean,recipient_state,OR,OR,PR,PR,52.0,False,50.0,DATE OF PROVINICE,DATEOFPROVINICE,False,23.53,False,False,50.0
+1099_nec_2026_000135,1099_nec,clean,state_payer_number,VI-8215305,VI8215305,M205,M205,0.0,False,46.15,V1-8215305,V18215305,False,88.89,True,False,88.89
+w2_2026_000012,w2,clean,employer_state_id,VA-6229731,VA6229731,62297381,62297381,0.0,False,82.35,|VA-6229731 ..........................................,VA6229731,True,100.0,True,True,100.0
+w2_2026_000142,w2,clean,employee_last_name,HERRERA,HERRERA,HERRERA,HERRERA,96.0,True,100.0,HERRERA,HERRERA,True,100.0,False,True,100.0
+w2_2026_000177,w2,clean,social_security_tax_withheld,"5,030.05",5030.05,"8,080.05",8080.05,54.0,False,71.43,"* AUGIAT SECURNY TAX WITH 5,030.05",61515030.05,False,77.78,True,False,77.78
+1099_nec_2026_000115,1099_nec,clean,state_tax_withheld,254.72,254.72,$284.72,284.72,28.0,False,83.33,$ 2.42,2.42,False,60.0,False,False,83.33
+1099_nec_2026_000242,1099_nec,clean,nonemployee_compensation,"79,846.48",79846.48,"$ 79,846.48",79846.48,48.0,True,100.0,SR: 79:484648,579484648.00,False,70.0,False,True,100.0
+w2_2026_000124,w2,clean,wages,"145,477.29",145477.29,"445,477.29",445477.29,52.0,False,88.89,"* WAYES, UPS, UNIER 00"" 145,477.29",55100145477.29,False,78.26,False,False,88.89
+w2_2026_000048,w2,clean,control_number,W2-2026-000048,W22026000048,22028-00088,2202800088,50.0,False,72.73,VE: 2028-0048-15- 1,VE20280048151,False,56.0,False,False,72.73
+1099_nec_2026_000065,1099_nec,clean,payer_city,TIMOTHYSIDE,TIMOTHYSIDE,TIMOTHYSIDE,TIMOTHYSIDE,92.0,True,100.0,TIMOTHYSIDE,TIMOTHYSIDE,True,100.0,False,True,100.0
+1099_nec_2026_000138,1099_nec,clean,payer_state,GA,GA,JR,JR,18.0,False,0.0,LOTATE OR PROVINCE,LOTATEORPROVINCE,False,11.11,True,False,11.11
+w2_2026_000010,w2,clean,state,MH,MH,MH,MH,58.0,True,100.0,[MM),MM,False,50.0,False,True,100.0
+w2_2026_000012,w2,clean,employer_ein,00-4553384,004553384,00-4553384,004553384,20.0,True,100.0,00-25534 TERIMAN NAME (RM),00255341,False,70.59,False,True,100.0
+1099_nec_2026_000156,1099_nec,clean,federal_income_tax_withheld,"2,513.53",2513.53,": 2,513.53",2513.53,48.0,True,100.0,$ ************ 2513.53,2513.53,True,100.0,False,True,100.0
+w2_2026_000157,w2,clean,federal_tax_withheld,"7,525.96",7525.96,"7,525.96)",7525.96,38.0,True,100.0,"PLEASE INCLUSIVE TAX WITH 7,525.96",15115117525.96,False,66.67,False,True,100.0
+1099_nec_2026_000247,1099_nec,clean,nonemployee_compensation,"72,490.18",72490.18,"$ 72,490.18",72490.18,48.0,True,100.0,"SR: 72,49018",57249018.00,False,73.68,False,True,100.0
+w2_2026_000161,w2,clean,state_wages,"81,474.76",81474.76,"81,474.76",81474.76,44.0,True,100.0,.........81474.76,0.81,False,33.33,False,True,100.0
+w2_2026_000055_scan_hard_02,w2,hard,state_wages,"91,816.84",91816.84,"1,816.84",1816.84,30.0,False,93.33,"91,816.84",91816.84,True,100.0,True,True,100.0
+w2_2026_000070_scan_hard_02,w2,hard,social_security_tax_withheld,"6,250.12",6250.12,$8,8.00,0.0,False,18.18,* SOLD SECURNY TAX 6.250.12,501056.25,False,50.0,True,False,50.0
+1099_nec_2026_000051_scan_hard_02,1099_nec,hard,state_income,"37,490.52",37490.52,"$37,490.52",37490.52,8.0,True,100.0,"$ 37,490.52",37490.52,True,100.0,False,True,100.0
+1099_nec_2026_000035_scan_hard_02,1099_nec,hard,state_payer_number,MH-8261353,MH8261353,,,0.0,False,0.0,WHATESISSS,WHATESISSS,False,10.53,True,False,10.53
+w2_2026_000124_scan_hard_02,w2,hard,social_security_wages,"145,477.29",145477.29,". 145,477.29",0.15,41.5,False,30.77,"3 5008 SECURNY WA98 145,477.29",35008598145477.29,False,69.23,True,False,69.23
+w2_2026_000166_scan_hard_02,w2,hard,medicare_wages,"30,721.24",30721.24,"-) 721.24 ,",-721.24,9.33,False,80.0,5 MEDICATE WEGES AND 30.721.24,50165030.72,False,42.11,False,False,80.0
+w2_2026_000092_scan_hard_02,w2,hard,social_security_tax_withheld,"2,054.89",2054.89,-,-,0.0,False,0.0,SHANK YOUKY EX WITHIN 2.054.89,50112.05,False,40.0,True,False,40.0
+1099_nec_2026_000031_scan_hard_02,1099_nec,hard,payer_zip,37626,37626,37626 oo,3762600,14.0,False,83.33,57626 KEEPN POSTAL CODE,5762605100,False,53.33,False,False,83.33
+w2_2026_000172_scan_hard_02,w2,hard,medicare_wages,"41,872.42",41872.42,. 4872.42,0.49,0.0,False,33.33,5 MEDICATE WEGES NO.872.42,501650.87,False,35.29,True,False,35.29
+w2_2026_000157_scan_hard_02,w2,hard,federal_tax_withheld,"7,525.96",7525.96,2. 775856,2.78,15.5,False,36.36,2 FEDERAL INCOME TAX WITH 2525.96,2011012525.96,False,60.0,True,False,60.0
+1099_nec_2026_000195_scan_hard_02,1099_nec,hard,state_payer_number,OR-2871488,OR2871488,,,0.0,False,0.0,OR-287168,OR287168,False,82.35,True,False,82.35
+1099_nec_2026_000055_scan_hard_02,1099_nec,hard,payer_zip,63442,63442,eae,,27.0,False,0.0,SR42 TORION POSTAL CODE,54201005100,False,25.0,True,False,25.0
+1099_nec_2026_000188_scan_hard_02,1099_nec,hard,payer_state,NH,NH,RS,RS,0.0,False,0.0,***,,False,0.0,False,False,0.0
+1099_nec_2026_000040_scan_hard_02,1099_nec,hard,recipient_street,634 RICHARD RANCH SUITE 897,634 RICHARD RANCH SUITE 897,\694 RICHARD RANCH SUITE 897,694 RICHARD RANCH SUITE 897,68.0,False,96.3,634 RICHARD RANCH SURE 897,634 RICHARD RANCH SURE 897,False,94.34,False,False,96.3
+1099_nec_2026_000183_scan_hard_02,1099_nec,hard,state_income,"122,438.48",122438.48,"$122,436.48",122436.48,0.0,False,88.89,"$ 122,438.48",122438.48,True,100.0,True,True,100.0
+1099_nec_2026_000031_scan_hard_02,1099_nec,hard,recipient_zip,04778,04778,4778 See ee,47785,32.33,False,80.0,0478 006% POSTAL CODE,047800605100,False,47.06,False,False,80.0
+1099_nec_2026_000064_scan_hard_02,1099_nec,hard,account_number,NEC-2026-000064,NEC2026000064,NEC-2026-00066,NEC202600066,0.0,False,88.0,FACE: 2828-00084-12-12-12-12-12-12-12-12-12-12-12-12-,FACE282800084121212121212121212121212,False,28.0,False,False,88.0
+w2_2026_000236_scan_hard_02,w2,hard,employee_last_name,WILSON,WILSON,WILSON,WILSON,95.0,True,100.0,WILSON,WILSON,True,100.0,False,True,100.0
+w2_2026_000237_scan_hard_02,w2,hard,wages,"36,077.80",36077.80,38.077.80),38.08,0.0,False,46.15,"- 36,077.80",-36077.80,False,94.12,True,False,94.12
+w2_2026_000012_scan_hard_02,w2,hard,state,VA,VA,VA,VA,0.0,True,100.0,ML,ML,False,0.0,False,True,100.0
+w2_2026_000070_scan_hard_02,w2,hard,social_security_wages,"100,808.33",100808.33,10080833,10080833.00,32.0,False,80.0,3 SOCIAL SECURITY WITH 100.808.33,35011511100.81,False,34.78,False,False,80.0
+1099_nec_2026_000167_scan_hard_02,1099_nec,hard,state_payer_number,PR-6622207,PR6622207,P6622 062 07 22,P66220620722,31.75,False,76.19,PR-6622207,PR6622207,True,100.0,True,True,100.0
+w2_2026_000065_scan_hard_02,w2,hard,federal_tax_withheld,"11,109.14",11109.14,"11,109.14",11109.14,0.0,True,100.0,"- 11,109.14",-11109.14,False,94.12,False,True,100.0
+1099_nec_2026_000113_scan_hard_02,1099_nec,hard,federal_income_tax_withheld,951.00,951.00,. 951.00,0.95,64.5,False,40.0,SR: 56 PM,556.00,False,66.67,True,False,66.67
+1099_nec_2026_000079_scan_hard_02,1099_nec,hard,federal_income_tax_withheld,0.00,0.00,0.00,0.00,65.0,True,100.0,SR:,5.00,False,75.0,False,True,100.0
+1099_nec_2026_000195_scan_hard_02,1099_nec,hard,payer_tin,00-5228713,005228713,00-5228713,005228713,0.0,True,100.0,50-529-73,5052973,False,62.5,False,True,100.0
+1099_nec_2026_000213_scan_hard_02,1099_nec,hard,account_number,NEC-2026-000213,NEC2026000213,TT,TT,28.0,False,0.0,INCLUSIONS FOR EXCLUDES ON RECEIPT,INCLUSIONSFOREXCLUDESONRECEIPT,False,13.95,True,False,13.95
+1099_nec_2026_000032_scan_hard_02,1099_nec,hard,recipient_state,VA,VA,E,E,0.0,False,0.0,STATE OR PROUNCE,STATEORPROUNCE,False,12.5,True,False,12.5
+w2_2026_000012_scan_hard_02,w2,hard,employee_ssn,000-77-7932,000777932,50 SOCIASSUUIHU,50501551,19.5,False,23.53,000-77-7992'S SOCAL SECURNY NUMBER,000777992550158,False,66.67,True,False,66.67
+1099_nec_2026_000091_scan_hard_02,1099_nec,hard,payer_city,STEVENBERG,STEVENBERG,wy we ee | STEVENBERG,WY WE EE STEVENBERG,49.6,False,68.97,STEVENBERG (RM),STEVENBERG RM,False,86.96,True,False,86.96
+w2_2026_000049_scan_hard_02,w2,hard,employee_ssn,000-11-9464,000119464,G SOCICU,6501,0.0,False,30.77,000-11-9464 SECAR SECURTY NUMBER,000119464558,False,85.71,True,False,85.71
+w2_2026_000177_scan_hard_02,w2,hard,employer_state_id,FM-9597330,FM9597330,P0,P0,0.0,False,18.18,FM-9597380,FM9597380,False,88.89,True,False,88.89
+1099_nec_2026_000031_scan_hard_02,1099_nec,hard,recipient_state,AS,AS,LS,LS,19.0,False,50.0,SALE OF PROUNCE,SALEOFPROUNCE,False,13.33,False,False,50.0
+w2_2026_000214_scan_hard_02,w2,hard,employee_ssn,000-90-2262,000902262,SMALE,51,0.0,False,0.0,000-90-2262 X SOCIAL SECURITY NUMBER,0009022625011518,False,72.0,True,False,72.0
+w2_2026_000157_scan_hard_02,w2,hard,medicare_tax_withheld,461.31,461.31,64 461.31,64461.31,41.0,False,85.71,6 MEDICATE TAX WITHED 461.31,60110461.31,False,70.59,False,False,85.71
+w2_2026_000124_scan_hard_02,w2,hard,employer_state_id,GU-3177199,GU3177199,7,7,0.0,False,20.0,GU-317189,GU317189,False,82.35,True,False,82.35
+1099_nec_2026_000240_scan_hard_02,1099_nec,hard,nonemployee_compensation,"119,242.49",119242.49,"$ 119,242.49",119242.49,62.5,True,100.0,SR: 19:24:46,5192446.00,False,52.63,False,True,100.0
+w2_2026_000155_scan_hard_02,w2,hard,employee_ssn,000-46-7698,000467698,4 SEREPITT,451,0.0,False,16.67,000 5791098'S SOCLAT SECURNY NUMBER,0005791098550158,False,48.0,True,False,48.0
+1099_nec_2026_000188_scan_hard_02,1099_nec,hard,federal_income_tax_withheld,0.00,0.00,( 0.00,0.00,46.0,True,100.0,SR: 00,500.00,False,80.0,False,True,100.0
+w2_2026_000140_scan_hard_02,w2,hard,employee_last_name,TERRY,TERRY,Se,SE,38.0,False,28.57,TERRY,TERRY,True,100.0,True,True,100.0
+1099_nec_2026_000036_scan_mild_01,1099_nec,mild,account_number,NEC-2026-000036,NEC2026000036,NEC-2026-000036,NEC2026000036,0.0,True,100.0,"FACE: 2028-000008"" ********",FACE2028000008,False,59.26,False,True,100.0
+1099_nec_2026_000167_scan_mild_01,1099_nec,mild,account_number,NEC-2026-000167,NEC2026000167,NEC-2026-000167 UUUDREANRIW,NEC2026000167UUUDREANRIW,8.0,False,70.27,RECE:00067,RECE00067,False,63.64,False,False,70.27
+w2_2026_000140_scan_mild_01,w2,mild,employee_last_name,TERRY,TERRY,TERRY,TERRY,96.0,True,100.0,TERRY,TERRY,True,100.0,False,True,100.0
+1099_nec_2026_000195_scan_mild_01,1099_nec,mild,federal_income_tax_withheld,"7,834.43",7834.43,"7,934.43",7934.43,45.0,False,85.71,$ ********,,False,0.0,False,False,85.71
+w2_2026_000124_scan_mild_01,w2,mild,medicare_tax_withheld,"2,109.42",2109.42,2109.42,2109.42,38.0,True,100.0,*** ***********,,False,0.0,False,True,100.0
+1099_nec_2026_000052_scan_mild_01,1099_nec,mild,state_payer_number,LA-8264954,LA8264954,8264056,8264056,0.0,False,62.5,LA 8264954,LA8264954,True,100.0,True,True,100.0
+1099_nec_2026_000188_scan_mild_01,1099_nec,mild,state_payer_number,GA-9165493,GA9165493,GA165,GA165,0.0,False,71.43,GA-9165493,GA9165493,True,100.0,True,True,100.0
+w2_2026_000250_scan_mild_01,w2,mild,state_wages,"129,498.65",129498.65,"129,498.65.",129498.65,45.0,True,100.0,"129,498.65",129498.65,True,100.0,False,True,100.0
+w2_2026_000172_scan_mild_01,w2,mild,social_security_tax_withheld,"2,596.09",2596.09,"2,596.09",2596.09,66.0,True,100.0,"AMOUNT SUMMARY TAX WITH 2,596.09",512596.09,False,87.5,False,True,100.0
+w2_2026_000019_scan_mild_01,w2,mild,social_security_tax_withheld,"2,330.63",2330.63,- 2330.63,-2330.63,21.0,False,93.33,"4 SOCIAL SECURNY TAX WITH 2,330.63",45011512330.63,False,66.67,False,False,93.33
+1099_nec_2026_000211_scan_mild_01,1099_nec,mild,recipient_city,BECKERVIEW,BECKERVIEW,BECKERVIEW eon,BECKERVIEW EON,60.0,False,83.33,BECKERVEY ************,BECKERVEY,False,84.21,True,False,84.21
+w2_2026_000010_scan_mild_01,w2,mild,employer_state_id,MH-9897858,MH9897858,MH9897858,MH9897858,8.0,True,100.0,[MH-9897558 !!!,MH9897558,False,88.89,False,True,100.0
+w2_2026_000152_scan_mild_01,w2,mild,federal_tax_withheld,"29,569.77",29569.77,"- 29,569.77",-29569.77,0.0,False,94.12,"PLEASE INCOME TAX #29,569.77",151029569.77,False,80.0,False,False,94.12
+1099_nec_2026_000060_scan_mild_01,1099_nec,mild,federal_income_tax_withheld,0.00,0.00,08 0.00,80.00,47.5,False,88.89,$,,False,0.0,False,False,88.89
+w2_2026_000111_scan_mild_01,w2,mild,wages,"106,703.61",106703.61,"108,708.61",108708.61,50.0,False,77.78,*** ****** **** **** ****,,False,0.0,False,False,77.78
+1099_nec_2026_000035_scan_mild_01,1099_nec,mild,recipient_name,JAMES SILVA,JAMES SILVA,JAMES SILVA,JAMES SILVA,62.0,True,100.0,UMESIA - 1,UMESIA 1,False,52.63,False,True,100.0
+w2_2026_000143_scan_mild_01,w2,mild,wages,"52,574.61",52574.61,"1 ,, 50574.61",150574.61,12.0,False,82.35,"1 WAGES, UPS, COMER 00TH 52,574.61",165500052574.61,False,69.57,False,False,82.35
+1099_nec_2026_000051_scan_mild_01,1099_nec,mild,account_number,NEC-2026-000051,NEC2026000051,NEC-2026-000051 5,NEC20260000515,17.5,False,96.3,"INEC 2029-0005""",INEC20290005,False,80.0,False,False,96.3
+w2_2026_000250_scan_mild_01,w2,mild,federal_tax_withheld,"23,735.65",23735.65,2373555,2373555.00,18.0,False,66.67,"2 REGULAR INCLUSIVE 18% *** 23,735.65",26111511823735.65,False,64.0,False,False,66.67
+1099_nec_2026_000079_scan_mild_01,1099_nec,mild,payer_zip,66241,66241,e241 VISIT PV vewnw,241151,17.75,False,54.55,66241 TORSIGN POSTAL CODE |,662410516051001,False,50.0,False,False,54.55
+w2_2026_000041_scan_mild_01,w2,mild,state_wages,"49,412.39",49412.39,"49,412.39",49412.39,53.0,True,100.0,"49,412.39",49412.39,True,100.0,False,True,100.0
+w2_2026_000041_scan_mild_01,w2,mild,employer_ein,00-2408404,002408404,- MEIN,1,0.0,False,0.0,RECEIPT FORIFICATION NUMBER EM),1011108,False,37.5,True,False,37.5
+w2_2026_000152_scan_mild_01,w2,mild,wages,"139,416.55",139416.55,". ) , 139,416.55",0.14,15.5,False,30.77,*** *******,,False,0.0,False,False,30.77
+w2_2026_000048_scan_mild_01,w2,mild,social_security_tax_withheld,"2,637.46",2637.46,2637.46,2637.46,55.0,True,100.0,"4 SOCIAR SECURNY LAX WITH 2,637.46",45015112637.46,False,66.67,False,True,100.0
+w2_2026_000019_scan_mild_01,w2,mild,state_wages,"37,590.74",37590.74,37.590.74,37.59,0.0,False,61.54,"37,590.74",37590.74,True,100.0,True,True,100.0
+1099_nec_2026_000032_scan_mild_01,1099_nec,mild,state_income,"144,652.96",144652.96,"$144,652.96",144652.96,42.0,True,100.0,"$ 44,652.96",44652.96,False,94.12,False,True,100.0
+w2_2026_000140_scan_mild_01,w2,mild,wages,"107,122.26",107122.26,",, 107,122.26",107122.26,0.0,True,100.0,"* **6%, UPS, UNER 007107,122.26",65007107122.26,False,78.26,False,True,100.0
+w2_2026_000143_scan_mild_01,w2,mild,federal_tax_withheld,"6,649.24",6649.24,"6,649.24",6649.24,69.0,True,100.0,"2 REGULAR INCLUSIVE TAX *** 6,649.24",26111516649.24,False,66.67,False,True,100.0
+1099_nec_2026_000243_scan_mild_01,1099_nec,mild,recipient_city,CHERYLSTAD,CHERYLSTAD,CHERYLSTAD,CHERYLSTAD,92.0,True,100.0,CHERYSTAO PERCHASE (RM),CHERYSTAO PERCHASE RM,False,51.61,False,True,100.0
+w2_2026_000077_scan_mild_01,w2,mild,employee_ssn,000-81-6992,000816992,000-81 6992 VVVUVIVUV,0008169921,45.33,False,94.74,000-81-6992 SUMM SECURRY INVOICE,00081699255101,False,78.26,False,False,94.74
+1099_nec_2026_000135_scan_mild_01,1099_nec,mild,payer_name,"BOYD, CRAWFORD AND JONES",BOYD CRAWFORD AND JONES,E0vD; CRAWFORD AND JONES,E0VD CRAWFORD AND JONES,69.0,False,86.96,"FOOD, CRAWFORD AND JOES - + + + + + +",FOOD CRAWFORD AND JOES,False,88.89,True,False,88.89
+w2_2026_000010_scan_mild_01,w2,mild,state_wages,"113,174.85",113174.85,"118,174.85,",118174.85,50.0,False,88.89,11374.85,11374.85,False,94.12,True,False,94.12
+1099_nec_2026_000115_scan_mild_01,1099_nec,mild,account_number,NEC-2026-000115,NEC2026000115,NEC-2026-000115,NEC2026000115,0.0,True,100.0,RECEIPT CODEBOOKS ONCLUSIVE OF RECEIPT,RECEIPTCODEBOOKSONCLUSIVEOFRECEIPT,False,12.77,False,True,100.0
+w2_2026_000172_scan_mild_01,w2,mild,employer_state_id,KS-8977571,KS8977571,KS8977571,KS8977571,0.0,True,100.0,[KS-8977571 .................................,KS8977571,True,100.0,False,True,100.0
+w2_2026_000041_scan_mild_01,w2,mild,employee_last_name,HOLLAND,HOLLAND,HOLLAND,HOLLAND,96.0,True,100.0,HOLLAND,HOLLAND,True,100.0,False,True,100.0
+1099_nec_2026_000183_scan_mild_01,1099_nec,mild,payer_state,MN,MN,SS,SS,0.0,False,0.0,MATE OR PROUNCE,MATEORPROUNCE,False,26.67,True,False,26.67
+1099_nec_2026_000040_scan_mild_01,1099_nec,mild,state_payer_number,SD-9769953,SD9769953,0976083,0976083,0.0,False,50.0,SD-9769953,SD9769953,True,100.0,True,True,100.0
+1099_nec_2026_000135_scan_mild_01,1099_nec,mild,recipient_name,TAMARA WYATT,TAMARA WYATT,TAMARA WYATT,TAMARA WYATT,68.0,True,100.0,TAKE WITH ***,TAKE WITH,False,47.62,False,True,100.0
+w2_2026_000243_scan_mild_01,w2,mild,employee_last_name,MEDINA,MEDINA,MEDINA,MEDINA,96.0,True,100.0,MEDINA,MEDINA,True,100.0,False,True,100.0
+w2_2026_000002_scan_mild_01,w2,mild,employee_last_name,ROGERS,ROGERS,ROGERS,ROGERS,96.0,True,100.0,ROGERS,ROGERS,True,100.0,False,True,100.0

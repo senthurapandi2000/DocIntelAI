@@ -1,0 +1,107 @@
+{
+  "calibration_source": "parent-held-out validation documents",
+  "hybrid_validation_path": "reports\\irs_tesseract_hybrid_validation_predictions.csv",
+  "router_holdout_path": "reports\\irs_ocr_router_holdout_predictions.csv",
+  "rows": 1110,
+  "documents": 63,
+  "parent_documents": 21,
+  "selected_regularization_c": 3.0,
+  "oof_brier_score": 0.112731,
+  "oof_roc_auc": 0.920781,
+  "risk_targets": {
+    "critical": 0.97,
+    "structured": 0.92,
+    "descriptive": 0.85
+  },
+  "risk_thresholds": {
+    "critical": 0.98,
+    "structured": 0.8,
+    "descriptive": 0.31
+  },
+  "target_met": {
+    "critical": false,
+    "structured": true,
+    "descriptive": true
+  },
+  "overall_policy": {
+    "fields": 1110,
+    "fields_auto_accepted": 323,
+    "fields_reviewed": 787,
+    "field_review_rate": 0.709,
+    "auto_accept_coverage": 0.291,
+    "auto_accepted_exact_match_rate": 0.8762,
+    "incorrect_field_capture_rate": 0.9263,
+    "incorrect_fields_auto_accepted": 40
+  },
+  "by_risk_tier": {
+    "critical": {
+      "fields": 474,
+      "fields_auto_accepted": 29,
+      "fields_reviewed": 445,
+      "field_review_rate": 0.9388,
+      "auto_accept_coverage": 0.0612,
+      "auto_accepted_exact_match_rate": 0.9655,
+      "incorrect_field_capture_rate": 0.9952,
+      "incorrect_fields_auto_accepted": 1
+    },
+    "descriptive": {
+      "fields": 330,
+      "fields_auto_accepted": 239,
+      "fields_reviewed": 91,
+      "field_review_rate": 0.2758,
+      "auto_accept_coverage": 0.7242,
+      "auto_accepted_exact_match_rate": 0.8536,
+      "incorrect_field_capture_rate": 0.7177,
+      "incorrect_fields_auto_accepted": 35
+    },
+    "structured": {
+      "fields": 306,
+      "fields_auto_accepted": 55,
+      "fields_reviewed": 251,
+      "field_review_rate": 0.8203,
+      "auto_accept_coverage": 0.1797,
+      "auto_accepted_exact_match_rate": 0.9273,
+      "incorrect_field_capture_rate": 0.981,
+      "incorrect_fields_auto_accepted": 4
+    }
+  },
+  "model_search": [
+    {
+      "regularization_c": 0.03,
+      "brier_score": 0.131122,
+      "log_loss": 0.40714,
+      "roc_auc": 0.903427
+    },
+    {
+      "regularization_c": 0.1,
+      "brier_score": 0.122339,
+      "log_loss": 0.378956,
+      "roc_auc": 0.913372
+    },
+    {
+      "regularization_c": 0.3,
+      "brier_score": 0.116566,
+      "log_loss": 0.36186,
+      "roc_auc": 0.919462
+    },
+    {
+      "regularization_c": 1.0,
+      "brier_score": 0.113427,
+      "log_loss": 0.35486,
+      "roc_auc": 0.92095
+    },
+    {
+      "regularization_c": 3.0,
+      "brier_score": 0.112731,
+      "log_loss": 0.35763,
+      "roc_auc": 0.920781
+    },
+    {
+      "regularization_c": 10.0,
+      "brier_score": 0.112886,
+      "log_loss": 0.3651,
+      "roc_auc": 0.92008
+    }
+  ],
+  "model_path": "C:\\Senthura\\PycharmProjects\\DocIntelAI\\models\\irs_field_confidence_model.joblib"
+}

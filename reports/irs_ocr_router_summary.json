@@ -1,0 +1,201 @@
+{
+  "source_predictions": "reports\\irs_trocr_fallback_benchmark_predictions.csv",
+  "rows": 2755,
+  "parent_documents": 81,
+  "training_rows": 2046,
+  "holdout_rows": 709,
+  "training_parent_documents": 60,
+  "holdout_parent_documents": 21,
+  "holdout_size": 0.25,
+  "positive_target_rate": 0.3604,
+  "selected_regularization_c": 10.0,
+  "holdout_threshold": 0.48,
+  "final_oof_threshold": 0.56,
+  "configuration_search": {
+    "candidates": [
+      {
+        "regularization_c": 0.1,
+        "threshold": 0.5,
+        "field_predictions": 2046,
+        "exact_match_rate": 0.3548,
+        "mean_similarity": 72.67,
+        "trocr_selection_rate": 0.4213
+      },
+      {
+        "regularization_c": 0.3,
+        "threshold": 0.5,
+        "field_predictions": 2046,
+        "exact_match_rate": 0.3607,
+        "mean_similarity": 73.13,
+        "trocr_selection_rate": 0.4169
+      },
+      {
+        "regularization_c": 1.0,
+        "threshold": 0.5,
+        "field_predictions": 2046,
+        "exact_match_rate": 0.3636,
+        "mean_similarity": 73.4,
+        "trocr_selection_rate": 0.4091
+      },
+      {
+        "regularization_c": 3.0,
+        "threshold": 0.46,
+        "field_predictions": 2046,
+        "exact_match_rate": 0.3641,
+        "mean_similarity": 73.17,
+        "trocr_selection_rate": 0.4267
+      },
+      {
+        "regularization_c": 10.0,
+        "threshold": 0.48,
+        "field_predictions": 2046,
+        "exact_match_rate": 0.3646,
+        "mean_similarity": 73.34,
+        "trocr_selection_rate": 0.415
+      }
+    ]
+  },
+  "holdout": {
+    "tesseract": {
+      "field_predictions": 709,
+      "exact_match_rate": 0.2764,
+      "mean_similarity": 64.01
+    },
+    "trocr": {
+      "field_predictions": 709,
+      "exact_match_rate": 0.1946,
+      "mean_similarity": 57.55
+    },
+    "router": {
+      "field_predictions": 709,
+      "exact_match_rate": 0.3653,
+      "mean_similarity": 73.19,
+      "trocr_selection_rate": 0.4217
+    },
+    "oracle": {
+      "field_predictions": 709,
+      "exact_match_rate": 0.3949,
+      "mean_similarity": 76.89
+    },
+    "router_target_accuracy": 0.8322,
+    "router_target_precision": 0.7425,
+    "router_target_recall": 0.8409,
+    "router_target_f1": 0.7886,
+    "router_target_confusion_matrix": [
+      [
+        368,
+        77
+      ],
+      [
+        42,
+        222
+      ]
+    ],
+    "router_target_report": {
+      "choose_tesseract": {
+        "precision": 0.8975609756097561,
+        "recall": 0.8269662921348314,
+        "f1-score": 0.8608187134502924,
+        "support": 445.0
+      },
+      "choose_trocr": {
+        "precision": 0.7424749163879598,
+        "recall": 0.8409090909090909,
+        "f1-score": 0.7886323268206039,
+        "support": 264.0
+      },
+      "accuracy": 0.8321579689703809,
+      "macro avg": {
+        "precision": 0.8200179459988579,
+        "recall": 0.8339376915219612,
+        "f1-score": 0.8247255201354482,
+        "support": 709.0
+      },
+      "weighted avg": {
+        "precision": 0.8398138393127825,
+        "recall": 0.8321579689703809,
+        "f1-score": 0.8339397204034125,
+        "support": 709.0
+      }
+    }
+  },
+  "holdout_by_quality": {
+    "clean": {
+      "tesseract": {
+        "field_predictions": 204,
+        "exact_match_rate": 0.4363,
+        "mean_similarity": 83.03
+      },
+      "trocr": {
+        "field_predictions": 204,
+        "exact_match_rate": 0.201,
+        "mean_similarity": 59.65
+      },
+      "router": {
+        "field_predictions": 204,
+        "exact_match_rate": 0.4951,
+        "mean_similarity": 85.21,
+        "trocr_selection_rate": 0.1961
+      },
+      "oracle": {
+        "field_predictions": 204,
+        "exact_match_rate": 0.5343,
+        "mean_similarity": 88.45
+      }
+    },
+    "hard": {
+      "tesseract": {
+        "field_predictions": 289,
+        "exact_match_rate": 0.1107,
+        "mean_similarity": 45.07
+      },
+      "trocr": {
+        "field_predictions": 289,
+        "exact_match_rate": 0.1626,
+        "mean_similarity": 54.69
+      },
+      "router": {
+        "field_predictions": 289,
+        "exact_match_rate": 0.2042,
+        "mean_similarity": 61.66,
+        "trocr_selection_rate": 0.6021
+      },
+      "oracle": {
+        "field_predictions": 289,
+        "exact_match_rate": 0.2249,
+        "mean_similarity": 65.49
+      }
+    },
+    "mild": {
+      "tesseract": {
+        "field_predictions": 216,
+        "exact_match_rate": 0.3472,
+        "mean_similarity": 71.41
+      },
+      "trocr": {
+        "field_predictions": 216,
+        "exact_match_rate": 0.2315,
+        "mean_similarity": 59.38
+      },
+      "router": {
+        "field_predictions": 216,
+        "exact_match_rate": 0.4583,
+        "mean_similarity": 77.27,
+        "trocr_selection_rate": 0.3935
+      },
+      "oracle": {
+        "field_predictions": 216,
+        "exact_match_rate": 0.4907,
+        "mean_similarity": 81.2
+      }
+    }
+  },
+  "full_validation_oof_router": {
+    "field_predictions": 2755,
+    "exact_match_rate": 0.3633,
+    "mean_similarity": 73.82,
+    "trocr_selection_rate": 0.376
+  },
+  "model_path": "C:\\Senthura\\PycharmProjects\\DocIntelAI\\models\\irs_ocr_router.joblib",
+  "metadata_path": "C:\\Senthura\\PycharmProjects\\DocIntelAI\\models\\irs_ocr_router_metadata.json"
+}

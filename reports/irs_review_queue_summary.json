@@ -1,0 +1,19 @@
+{
+  "source_fields_path": "reports\\irs_field_confidence_final_test_fields.csv",
+  "documents": 159,
+  "documents_requiring_review": 159,
+  "documents_auto_accepted": 0,
+  "total_fields": 2784,
+  "accepted_fields": 767,
+  "review_fields": 2017,
+  "critical_review_fields": 1233,
+  "structured_review_fields": 575,
+  "descriptive_review_fields": 209,
+  "exception_fields": 286,
+  "status_counts": {
+    "exception_review": 89,
+    "critical_field_verification": 70
+  },
+  "queue_jsonl_path": "C:\\Senthura\\PycharmProjects\\DocIntelAI\\reports\\irs_review_queue.jsonl",
+  "queue_csv_path": "C:\\Senthura\\PycharmProjects\\DocIntelAI\\reports\\irs_review_queue_summary.csv"
+}

@@ -1,0 +1,100 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: docintelai-api
+    command:
+      - python
+      - -m
+      - uvicorn
+      - src.api.irs_review_api:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+    environment:
+      IRS_REVIEW_DB: /app/data/processed/irs_review_queue.db
+      HF_HOME: /app/.cache/huggingface
+      TESSERACT_CMD: /usr/bin/tesseract
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models:ro
+      - huggingface_cache:/app/.cache/huggingface
+    healthcheck:
+      test:
+        - CMD
+        - curl
+        - --fail
+        - http://localhost:8000/health
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
+    init: true
+    restart: unless-stopped
+
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: docintelai-worker
+    command:
+      - python
+      - -m
+      - src.services.irs_processing_worker
+      - --database
+      - data/processed/irs_review_queue.db
+      - --poll-interval
+      - "5"
+      - --batch-size
+      - "1"
+      - --num-beams
+      - "1"
+      - --confidence-threshold
+      - "70"
+    environment:
+      CUDA_VISIBLE_DEVICES: "-1"
+      HF_HOME: /app/.cache/huggingface
+      TESSERACT_CMD: /usr/bin/tesseract
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models:ro
+      - huggingface_cache:/app/.cache/huggingface
+    depends_on:
+      api:
+        condition: service_healthy
+    init: true
+    restart: unless-stopped
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: docintelai-dashboard
+    command:
+      - python
+      - -m
+      - streamlit
+      - run
+      - src/ui/irs_review_dashboard.py
+      - --server.address
+      - 0.0.0.0
+      - --server.port
+      - "8501"
+      - --server.headless
+      - "true"
+    environment:
+      DOCINTELAI_REVIEW_API: http://api:8000
+    ports:
+      - "8501:8501"
+    depends_on:
+      api:
+        condition: service_healthy
+    init: true
+    restart: unless-stopped
+
+volumes:
+  huggingface_cache:

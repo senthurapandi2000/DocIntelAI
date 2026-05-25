@@ -1,0 +1,43 @@
+# Git and IDE
+.git
+.gitignore
+.idea
+.vscode
+
+# Python caches and environments
+.venv
+venv
+env
+__pycache__
+*.pyc
+.pytest_cache
+.mypy_cache
+.ruff_cache
+
+# Runtime data is mounted with Docker Compose
+data
+
+# Models are mounted read-only with Docker Compose
+models
+
+# Local caches
+.cache
+huggingface
+torch_cache
+
+# Local logs and secrets
+*.log
+.env
+.env.*
+!.env.example
+
+# Build and packaging artifacts
+build
+dist
+*.egg-info
+
+# Temporary backups
+*_before_*.py
+*.backup
+*.tmp
+*.temp

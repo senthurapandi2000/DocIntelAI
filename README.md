@@ -1,14 +1,14 @@
 # DocIntelAI
 
-DocIntelAI is a production-style document intelligence platform for U.S. SEC filings and IRS forms. It combines document classification, XBRL validation, hybrid OCR, learned routing, confidence scoring, human review, audit logging, FastAPI, Streamlit, SQLite, automated tests, and Docker.
+DocIntelAI is a production-style document intelligence platform for U.S. SEC filings and IRS forms. It combines document classification, XBRL validation, hybrid OCR, learned routing, field-confidence scoring, human review, audit logging, FastAPI, Streamlit, SQLite, automated tests, and Docker.
 
-The IRS workflow is intentionally human-in-the-loop. Low-confidence or high-risk fields are routed to reviewers instead of being silently accepted.
+The IRS workflow is intentionally human-in-the-loop. Low-confidence, invalid, inconsistent, or high-risk fields are routed to reviewers instead of being silently accepted.
 
-## What the system does
+## Features
 
 ### SEC workflow
 
-- Classifies SEC 8-K, 10-Q, and 10-K filings
+- Collects and classifies SEC 8-K, 10-Q, and 10-K filings
 - Uses TF-IDF and LinearSVC for filing-type classification
 - Extracts and validates XBRL facts
 - Applies fallback metric logic when preferred facts are unavailable
@@ -63,9 +63,53 @@ flowchart LR
     T --> U[Audit events]
 ```
 
-A more detailed explanation is available in [`docs/architecture.md`](docs/architecture.md).
+More detail is available in [`docs/architecture.md`](docs/architecture.md).
 
-## Key results
+## Application Screenshots
+
+### 1. Document Upload
+
+Upload a synthetic W-2 or 1099-NEC document and create an asynchronous processing job.
+
+![Document upload](docs/screenshots/01-upload-document.png)
+
+### 2. Processing Jobs Overview
+
+Track multiple documents from queueing through classification, OCR, confidence scoring, and review-queue creation.
+
+![Processing jobs overview](docs/screenshots/02-processing-jobs-overview.png)
+
+### 3. Processing Job Details
+
+Inspect the selected job's detected type, processing status, result document ID, timestamps, and completion state.
+
+![Processing job details](docs/screenshots/03-processing-job-details.png)
+
+### 4. Human Review Queue
+
+Review document priority, exceptions, accepted fields, assignment state, and workflow progress.
+
+![Review queue overview](docs/screenshots/04-review-queue-overview.png)
+
+### 5. Risk-Aware Field Review
+
+Inspect OCR engine selection, confidence, risk tier, threshold, format validation, cross-field consistency, and review reasons.
+
+![Risk-aware field table](docs/screenshots/05-risk-aware-field-table.png)
+
+### 6. Source Verification and Field Crop
+
+Compare the extracted field with the highlighted source-document region and enlarged crop used for OCR.
+
+![Source verification and field crop](docs/screenshots/06-source-verification-crop.png)
+
+### 7. Audit History
+
+Track reviewer assignment, approval, correction, and workflow events.
+
+![Audit history](docs/screenshots/07-audit-history.png)
+
+## Key Results
 
 ### SEC evaluation
 
@@ -110,21 +154,23 @@ The SEC classifier achieved 100% accuracy on the project's limited internal and 
 | Structured accepted exact accuracy | 91.03% |
 | Structured incorrect-field capture | 97.44% |
 
-The system favors review coverage over aggressive automation, particularly for TINs, SSNs, EINs, wages, tax amounts, and other high-risk fields.
+The system favors review coverage over aggressive automation, especially for TINs, SSNs, EINs, wages, tax amounts, and other high-risk fields.
 
-## Synthetic IRS dataset
+## Synthetic IRS Dataset
+
+The IRS pipeline was developed using synthetic 2026 W-2 and 1099-NEC documents.
 
 - 500 clean base documents
 - 500 mild-degradation variants
 - 500 hard-degradation variants
 - 1,500 labeled images total
 - Parent-based train, validation, and test splits to reduce leakage
-- Fictional identifiers using reserved-looking synthetic prefixes
-- Samples clearly marked as synthetic and not for filing
+- Synthetic identifiers only
+- Samples marked as synthetic and not for filing
 
 No real tax records are required to reproduce the portfolio workflow.
 
-## Technology stack
+## Technology Stack
 
 - Python 3.12
 - FastAPI
@@ -142,10 +188,11 @@ No real tax records are required to reproduce the portfolio workflow.
 - pytest
 - Docker and Docker Compose
 
-## Repository structure
+## Repository Structure
 
 ```text
 DocIntelAI/
+├── config/
 ├── data/
 │   ├── processed/
 │   ├── samples/
@@ -158,8 +205,18 @@ DocIntelAI/
 ├── models/
 ├── reports/
 ├── scripts/
+│   ├── run_tests.ps1
+│   ├── start_all.ps1
+│   ├── start_api.ps1
+│   ├── start_dashboard.ps1
+│   ├── start_worker_cpu.ps1
+│   └── start_worker_gpu.ps1
 ├── src/
 │   ├── api/
+│   ├── classification/
+│   ├── extraction/
+│   ├── ingestion/
+│   ├── preprocessing/
 │   ├── services/
 │   ├── ui/
 │   └── validation/
@@ -169,11 +226,14 @@ DocIntelAI/
 ├── .gitignore
 ├── Dockerfile
 ├── docker-compose.yml
+├── requirements-dev.txt
 ├── requirements.txt
 └── README.md
 ```
 
-## Local setup
+## Local Setup
+
+Create and activate a virtual environment:
 
 ```powershell
 python -m venv .venv
@@ -203,11 +263,23 @@ Local URLs:
 - FastAPI health: `http://127.0.0.1:8000/health`
 - FastAPI docs: `http://127.0.0.1:8000/docs`
 
-## Docker setup
+## Docker Setup
+
+Build:
 
 ```powershell
 docker compose build
+```
+
+Start:
+
+```powershell
 docker compose up -d
+```
+
+Check status:
+
+```powershell
 docker compose ps
 ```
 
@@ -225,7 +297,7 @@ Stop:
 docker compose down
 ```
 
-## Main API endpoints
+## Main API Endpoints
 
 ### Review workflow
 
@@ -252,11 +324,24 @@ POST /api/v1/documents/jobs/{job_id}/retry
 POST /api/v1/documents/jobs/{job_id}/archive
 ```
 
-## Automated testing
+## Automated Testing
 
-The integration suite uses a temporary SQLite database and temporary upload directory, so tests do not modify the local production-style review queue.
+The integration suite uses a temporary SQLite database and temporary upload directory, so tests do not modify the local review queue.
 
-Current coverage includes health, statistics, document retrieval, reviewer assignment, field approval and correction, completion rules, audit events, uploads, duplicate blocking, job tracking, retry and archive behavior, source-image and crop endpoints, and SQLite persistence.
+Current coverage includes:
+
+- Health and statistics
+- Document listing and retrieval
+- Reviewer assignment
+- Field approval and correction
+- Premature-completion prevention
+- Audit-event creation
+- Upload and job creation
+- Duplicate-upload blocking
+- Unsupported-file rejection
+- Source-image and crop endpoints
+- Retry and archive behavior
+- SQLite persistence
 
 Expected result:
 
@@ -264,41 +349,18 @@ Expected result:
 11 passed
 ```
 
-## Screenshots
-
-Add final screenshots under `docs/screenshots/` using these names:
-
-```text
-01-upload-document.png
-02-processing-jobs.png
-03-review-queue-overview.png
-04-risk-aware-field-table.png
-05-source-verification-crop.png
-06-audit-history.png
-```
-
-Recommended README placement:
-
-```markdown
-![Processing jobs](docs/screenshots/02-processing-jobs.png)
-
-![Review queue](docs/screenshots/03-review-queue-overview.png)
-
-![Source verification](docs/screenshots/05-source-verification-crop.png)
-```
-
-## Safety and limitations
+## Safety and Limitations
 
 - This project is a portfolio system, not tax-preparation software.
 - OCR output must not be treated as authoritative without verification.
 - High-risk fields are intentionally routed to human review.
 - The dataset is synthetic and does not represent every real-world IRS layout or scan condition.
-- TrOCR is compute-intensive and the Docker worker is configured for CPU reliability.
+- TrOCR is compute-intensive, and the Docker worker is configured for CPU reliability.
 - SQLite is appropriate for a local portfolio deployment, but a larger deployment should use PostgreSQL or another production database.
 - Authentication, role-based access control, encryption, and enterprise observability would be required for real tax documents.
 - SEC classification performance was measured on a limited project holdout and should not be generalized without broader evaluation.
 
-## Future improvements
+## Future Improvements
 
 - PostgreSQL persistence
 - Authentication and reviewer roles
@@ -312,6 +374,21 @@ Recommended README placement:
 - CI/CD deployment pipeline
 - Cloud deployment with managed secrets and observability
 
-## Project positioning
+## Project Positioning
 
-DocIntelAI demonstrates applied machine learning, OCR and multimodal document processing, model evaluation, human-in-the-loop system design, backend API development, workflow orchestration, database design, testing, Docker packaging, and responsible automation.
+DocIntelAI demonstrates:
+
+- Applied machine learning
+- OCR and multimodal document processing
+- Model evaluation
+- Human-in-the-loop system design
+- Backend API development
+- Workflow orchestration
+- Database design
+- Automated testing
+- Docker packaging
+- Responsible automation
+
+## Repository
+
+GitHub: `https://github.com/senthurapandi2000/DocIntelAI`
